@@ -19,27 +19,8 @@ const BlogPost = styled.article`
 
 const IndexPage = ({ data }) => (
   <Layout>
-    <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
-    <p>
-      Want to become a better developer? 💻 I'm Eric and I write about web
-      development &amp; making web apps to help you level up your skills and
-      learn to build cool things online.
-    </p>
-    <p>
-      Subscribe 💌 below and I'll send you an email every Friday about how to
-      become a better developer and create some cool projects.
-    </p>
-    <p>
-      I also post a lot on Twitter, follow me at{" "}
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://twitter.com/ericnmurphy"
-      >
-        @ericnmurphy
-      </a>
-      .
-    </p>
+    <SEO />
+
     <div>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <BlogPost key={node.fields.slug}>

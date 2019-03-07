@@ -3,17 +3,19 @@ import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Cta from "../components/cta"
 
-const BlogTemplate = ({ data, location }) => {
+const BlogTemplate = ({ data }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
 
   return (
-    <Layout location={location} title={siteTitle}>
+    <Layout title={siteTitle}>
       <SEO title={post.frontmatter.title} description={post.excerpt} />
       <h1>{post.frontmatter.title}</h1>
       <p>{post.frontmatter.date}</p>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      <Cta />
     </Layout>
   )
 }

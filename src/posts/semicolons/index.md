@@ -1,7 +1,7 @@
 ---
 title: "Why you shouldn't use semicolons when you're learning JavaScript"
 date: "2018-10-30"
-twitterimage: "./semicolon.png"
+featuredimage: "./semicolon.png"
 ---
 
 ![semicolon](./semicolon.png)
@@ -26,14 +26,14 @@ But it's not always that easy. Sometimes, it's not exactly straightforward if yo
 // where do you put semicolons on an ES5 function?
 function dog() {
   return {
-    breed: "Shiba" // AVOID!
+    breed: "Shiba", // AVOID!
   } // here
 } // AVOID!
 
 // OK, how about an arrow function?
 const anotherDog = () => {
   return {
-    breed: "Akita" // AVOID!
+    breed: "Akita", // AVOID!
   } // here
 } // here too
 
@@ -56,10 +56,11 @@ For me, I have enough things to worry about when working with JavaScript. If I c
 OK, I'll admit it. There's a few edge cases that will actually break things if you leave out a semicolon. Here's one example that's always brought up:
 
 ```javascript
-console.log("Dogs are pretty cool")
-["Shiba", "Akita", "Golden Retriever"].forEach(dog => {
-  console.log(`${dog} is a cool dog 👍`)
-})
+console
+  .log("Dogs are pretty cool")
+  [("Shiba", "Akita", "Golden Retriever")].forEach(dog => {
+    console.log(`${dog} is a cool dog 👍`)
+  })
 // breaks because it compiles the console.log and array to the same expression
 // console.log("Dogs are pretty cool")[("Shiba", "Akita", "Golden Retriever")]
 // this breaks everything 💀

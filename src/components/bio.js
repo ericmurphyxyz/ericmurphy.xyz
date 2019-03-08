@@ -5,13 +5,20 @@ import Subscribe from "./subscribe"
 const Bio = () => (
   <>
     <p>
-      Want to become a better developer? 💻 I'm Eric and I write about web
-      development &amp; making web apps to help you level up your skills and
-      learn to build cool things online.
+      Want to become a better developer?{" "}
+      <span role="img" aria-label="Laptop">
+        💻
+      </span>{" "}
+      I'm Eric and I write about web development &amp; making web apps to help
+      you level up your skills and learn to build cool things online.
     </p>
     <p>
-      Subscribe 💌 below and I'll send you an email every Friday about how to
-      become a better developer and create some cool projects.
+      Subscribe{" "}
+      <span role="img" aria-label="Letter">
+        💌
+      </span>{" "}
+      below and I'll send you an email every Friday about how to become a better
+      developer and create some cool projects.
     </p>
     <Subscribe />
     <p>

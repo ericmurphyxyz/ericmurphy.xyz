@@ -1,7 +1,7 @@
 ---
 title: "How to make your sites look good without 1 million slow-ass Google fonts"
 date: "2018-10-24"
-twitterimage: "./tweet.png"
+featuredimage: "./tweet.png"
 ---
 
 ![tweet](./tweet.png)
@@ -13,7 +13,8 @@ Why not use the fonts already installed on your user's devices? I'm not talking 
 Want to use a nice, modern sans-serif font?
 
 ```css
-font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu,
+  Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 ```
 
 For serif fonts for, say, body text, you can use Georgia:
@@ -25,7 +26,8 @@ font-family: georgia, serif;
 Need to show off a code block? For monospace fonts:
 
 ```css
-font-family: 'SFMono-Regular', Consolas, 'Roboto Mono', 'Droid Sans Mono', 'Liberation Mono', Menlo, Courier, monospace
+font-family: "SFMono-Regular", Consolas, "Roboto Mono", "Droid Sans Mono",
+  "Liberation Mono", Menlo, Courier, monospace;
 ```
 
 And it looks damn nice, too. All the text on my website uses these fonts.

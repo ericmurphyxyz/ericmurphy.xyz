@@ -11,7 +11,11 @@ const BlogTemplate = ({ data }) => {
 
   return (
     <Layout title={siteTitle}>
-      <SEO title={post.frontmatter.title} description={post.excerpt} />
+      <SEO
+        title={post.frontmatter.title}
+        description={post.excerpt}
+        image={post.frontmatter.featuredimage.childImageSharp.fixed.src}
+      />
       <h1>{post.frontmatter.title}</h1>
       <p>{post.frontmatter.date}</p>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
@@ -30,6 +34,7 @@ export const pageQuery = graphql`
         author
       }
     }
+
     markdownRemark(fields: { slug: { eq: $slug } }) {
       id
       excerpt(pruneLength: 160)
@@ -37,6 +42,13 @@ export const pageQuery = graphql`
       frontmatter {
         title
         date(formatString: "MMMM DD, YYYY")
+        featuredimage {
+          childImageSharp {
+            fixed(width: 1200) {
+              src
+            }
+          }
+        }
       }
     }
   }

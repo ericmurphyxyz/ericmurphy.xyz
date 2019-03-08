@@ -1,16 +1,9 @@
-/**
- * SEO component that queries for data with
- *  Gatsby's useStaticQuery React hook
- *
- * See: https://www.gatsbyjs.org/docs/use-static-query/
- */
-
 import React from "react"
 import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, keywords, title, }) {
+function SEO({ description, image, lang, meta, keywords, title }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -26,6 +19,7 @@ function SEO({ description, lang, meta, keywords, title, }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
+  const twitterCard = image ? `summary_large_image` : `summary`
 
   return (
     <Helmet
@@ -33,8 +27,10 @@ function SEO({ description, lang, meta, keywords, title, }) {
         lang,
       }}
       title={title}
-      defaultTitle={`${site.siteMetadata.title} - ${site.siteMetadata.description}`}
-      titleTemplate={`%s - ${site.siteMetadata.title}`}
+      defaultTitle={`${site.siteMetadata.title} - ${
+        site.siteMetadata.description
+      }`}
+      titleTemplate={`%s - ${image}`}
       meta={[
         {
           name: `description`,
@@ -54,7 +50,7 @@ function SEO({ description, lang, meta, keywords, title, }) {
         },
         {
           name: `twitter:card`,
-          content: `summary`,
+          content: twitterCard,
         },
         {
           name: `twitter:creator`,
@@ -70,11 +66,19 @@ function SEO({ description, lang, meta, keywords, title, }) {
         },
       ]
         .concat(
+          image
+            ? {
+                name: `twitter:image`,
+                content: `${site.siteMetadata.siteUrl}${image}`,
+              }
+            : []
+        )
+        .concat(
           keywords.length > 0
             ? {
-              name: `keywords`,
-              content: keywords.join(`, `),
-            }
+                name: `keywords`,
+                content: keywords.join(`, `),
+              }
             : []
         )
         .concat(meta)}

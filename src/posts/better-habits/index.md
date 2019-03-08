@@ -1,7 +1,7 @@
 ---
 title: "5 non-developer habits that will make you a better developer"
 date: "2018-11-09"
-twitterimage: "./habits.jpg"
+featuredimage: "./habits.jpg"
 ---
 
 ![Habits](./habits.jpg)

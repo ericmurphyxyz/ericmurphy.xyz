@@ -4,7 +4,7 @@ import React from "react"
 import styled from "styled-components"
 
 const HeaderWrapper = styled.header`
-  margin: 0 auto 1.45rem;
+  margin: 1.45rem auto 1.45rem;
   padding: 1.45rem 1.0875rem;
   max-width: 755px;
 
@@ -28,7 +28,7 @@ const Header = ({ siteTitle }) => (
 )
 
 Header.propTypes = {
-  siteTitle: PropTypes.string
+  siteTitle: PropTypes.string,
 }
 
 Header.defaultProps = {

@@ -1,7 +1,7 @@
 ---
-title: 'How to actually stay motivated to learn how to code'
-date: '2018-10-26'
-twitterimage: './just-do-it.png'
+title: "How to actually stay motivated to learn how to code"
+date: "2018-10-26"
+featuredimage: "./just-do-it.png"
 ---
 
 ![Just do it](./just-do-it.png)

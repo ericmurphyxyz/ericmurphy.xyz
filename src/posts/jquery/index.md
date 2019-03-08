@@ -1,7 +1,7 @@
 ---
 title: "Don't waste your time: Why you shouldn't learn jQuery in 2018"
 date: "2018-10-18"
-twitterimage: "./jquery.png"
+featuredimage: "./jquery.png"
 ---
 
 ![It's time to stop](./jquery.png)
@@ -40,6 +40,6 @@ If your passion is working on a bunch of old WordPress sites for Mom &amp; Pop's
 
 Well, it's one more thing to learn. Instead of jQuery, your time could be better spent getting yourself up to speed on something like React, vanilla JS, or a ubiquitous tool like Git.
 
-If you do get a job where you *have* to use it, then that's a legitimate reason to learn jQuery. It's not *that* much work to learn, and the documentation is pretty solid. But why bother spending the mental energy if you don't have to?
+If you do get a job where you _have_ to use it, then that's a legitimate reason to learn jQuery. It's not _that_ much work to learn, and the documentation is pretty solid. But why bother spending the mental energy if you don't have to?
 
 Now, get out there and build some awesome things—without jQuery.

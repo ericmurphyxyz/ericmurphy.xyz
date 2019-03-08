@@ -1,7 +1,7 @@
 ---
-title: 'Who TF cares about what tech stack you use?'
-date: '2018-11-02'
-twitterimage: './frameworks.png'
+title: "Who TF cares about what tech stack you use?"
+date: "2018-11-02"
+featuredimage: "./frameworks.png"
 ---
 
 ![Frameworks](./frameworks.png)
@@ -42,7 +42,7 @@ I'm not saying you should never learn something new. Obviously don't do that. Bu
 
 I always cockblocked myself from making something cool because I thought I needed to learn X, Y, and Z before I was ready to build something for the world to see. But I was just making excuses for myself.
 
-There's a lot to say for being really good at one or two things. If you're looking to hire a React developer, do you want to hire the girl who's an expert in React, or the guy who knows a little bit of React, Angular, Vue, and POPULAR\_NEW\_FRAMEWORK?
+There's a lot to say for being really good at one or two things. If you're looking to hire a React developer, do you want to hire the girl who's an expert in React, or the guy who knows a little bit of React, Angular, Vue, and POPULAR_NEW_FRAMEWORK?
 
 You don't need to know everything. You just need to know enough to get the job done!
 

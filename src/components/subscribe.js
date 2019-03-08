@@ -47,7 +47,7 @@ const Subscribe = () => {
         method="post"
         id="mc-embedded-subscribe-form"
         name="mc-embedded-subscribe-form"
-        class="validate"
+        className="validate"
         target="_blank"
         novalidate
       >
@@ -55,13 +55,12 @@ const Subscribe = () => {
           <div className="mc-field-group">
             <input
               type="email"
-              value=""
+              value={email}
               name="EMAIL"
               className="required email"
               id="mce-EMAIL"
               placeholder="Email"
               onChange={e => setEmail(e.target.value)}
-              value={email}
             />
           </div>
           <div id="mce-responses" className="clear">
@@ -90,7 +89,7 @@ const Subscribe = () => {
               value="Subscribe"
               name="subscribe"
               id="mc-embedded-subscribe"
-              class="button"
+              className="button"
             />
           </div>
         </div>

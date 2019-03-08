@@ -18,8 +18,8 @@ const BlogPost = styled.article`
   }
 `
 
-const IndexPage = ({ data }) => (
-  <Layout>
+const IndexPage = ({ data, location }) => (
+  <Layout location={location}>
     <SEO />
     <Bio />
     <div>

@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import styled from "styled-components"
 
 import Layout from "../components/layout"
+import Bio from "../components/bio"
 import SEO from "../components/seo"
 
 const BlogPost = styled.article`
@@ -20,7 +21,7 @@ const BlogPost = styled.article`
 const IndexPage = ({ data }) => (
   <Layout>
     <SEO />
-
+    <Bio />
     <div>
       {data.allMarkdownRemark.edges.map(({ node }) => (
         <BlogPost key={node.fields.slug}>

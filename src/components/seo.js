@@ -12,12 +12,17 @@ function SEO({ description, image, lang, meta, keywords, title }) {
             title
             description
             author
+            siteUrl
           }
         }
       }
     `
   )
 
+  const defaultTitle = `${site.siteMetadata.title} - ${
+    site.siteMetadata.description
+  }`
+  const metaTitle = title || defaultTitle
   const metaDescription = description || site.siteMetadata.description
   const twitterCard = image ? `summary_large_image` : `summary`
 
@@ -27,10 +32,8 @@ function SEO({ description, image, lang, meta, keywords, title }) {
         lang,
       }}
       title={title}
-      defaultTitle={`${site.siteMetadata.title} - ${
-        site.siteMetadata.description
-      }`}
-      titleTemplate={`%s - ${image}`}
+      defaultTitle={defaultTitle}
+      titleTemplate={`%s - ${site.siteMetadata.title}`}
       meta={[
         {
           name: `description`,
@@ -38,7 +41,7 @@ function SEO({ description, image, lang, meta, keywords, title }) {
         },
         {
           property: `og:title`,
-          content: title,
+          content: metaTitle,
         },
         {
           property: `og:description`,
@@ -58,7 +61,7 @@ function SEO({ description, image, lang, meta, keywords, title }) {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: metaTitle,
         },
         {
           name: `twitter:description`,

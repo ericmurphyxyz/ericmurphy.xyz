@@ -7,17 +7,21 @@ import Subscribe from "./subscribe"
 
 const BioWrapper = styled.div`
   display: grid;
-  grid-template-columns: 150px 1fr;
+  grid-template-columns: 1fr 150px;
   column-gap: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 
-  @media (max-width: 700px) {
+  @media (max-width: 800px) {
     grid-template-columns: 1fr;
+
+    .image-wrapper {
+      grid-row: 1;
+    }
   }
 
   .image-wrapper {
     max-width: 150px;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
   }
 
   img {
@@ -27,25 +31,7 @@ const BioWrapper = styled.div`
 
 const Bio = () => (
   <BioWrapper>
-    <div className="image-wrapper">
-      <StaticQuery
-        query={graphql`
-          query {
-            placeholderImage: file(relativePath: { eq: "profile.jpg" }) {
-              childImageSharp {
-                fluid(maxWidth: 150) {
-                  ...GatsbyImageSharpFluid
-                }
-              }
-            }
-          }
-        `}
-        render={data => (
-          <Img fluid={data.placeholderImage.childImageSharp.fluid} />
-        )}
-      />
-    </div>
-    <div>
+    <div class="text-wrapper">
       <h1>Want to become a better developer?</h1>{" "}
       <p>
         I'm Eric and I write about front-end development to help you level up
@@ -74,6 +60,24 @@ const Bio = () => (
         </a>
         .
       </p>
+    </div>
+    <div className="image-wrapper">
+      <StaticQuery
+        query={graphql`
+          query {
+            placeholderImage: file(relativePath: { eq: "profile.jpg" }) {
+              childImageSharp {
+                fixed(width: 150, quality: 95) {
+                  ...GatsbyImageSharpFixed
+                }
+              }
+            }
+          }
+        `}
+        render={data => (
+          <Img fixed={data.placeholderImage.childImageSharp.fixed} />
+        )}
+      />
     </div>
   </BioWrapper>
 )

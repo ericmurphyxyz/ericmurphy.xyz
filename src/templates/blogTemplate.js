@@ -5,12 +5,12 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Cta from "../components/cta"
 
-const BlogTemplate = ({ data, location }) => {
+const BlogTemplate = ({ data }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
 
   return (
-    <Layout title={siteTitle} location={location}>
+    <Layout title={siteTitle}>
       <SEO
         title={post.frontmatter.title}
         description={post.excerpt}

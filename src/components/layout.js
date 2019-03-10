@@ -7,12 +7,13 @@ import Header from "./header"
 import "./layout.css"
 
 const Wrapper = styled.div`
+  color: #fff;
   margin: 0 auto;
-  max-width: 755px;
+  max-width: 825px;
   padding: 0px 1.0875rem 1.45rem;
 
   a {
-    color: #00b1ff;
+    color: #8fa8c1;
     text-decoration: none;
     transition: opacity 200ms ease-in-out;
 
@@ -22,7 +23,7 @@ const Wrapper = styled.div`
   }
 `
 
-const Layout = ({ children, location }) => (
+const Layout = ({ children }) => (
   <StaticQuery
     query={graphql`
       query SiteTitleQuery {
@@ -35,7 +36,7 @@ const Layout = ({ children, location }) => (
     `}
     render={data => (
       <>
-        <Header siteTitle={data.site.siteMetadata.title} location={location} />
+        <Header siteTitle={data.site.siteMetadata.title} />
         <Wrapper>
           <main>{children}</main>
         </Wrapper>

@@ -23,8 +23,8 @@ const Form = styled.form`
   input[type="submit"] {
     flex: 1;
     color: #fff;
-    background: #00b1ff;
-    border: 1px solid #00b1ff;
+    background: #8fa8c1;
+    border: 1px solid #8fa8c1;
     border-radius: 4px;
     padding: 0.25em 1.25em;
     margin-bottom: 0.5em;

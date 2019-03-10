@@ -3,6 +3,8 @@ import PropTypes from "prop-types"
 import React from "react"
 import styled from "styled-components"
 
+import { linkColor } from "./variables"
+
 const HeaderWrapper = styled.header`
   margin: 1.45rem auto 1.45rem;
   padding: 1.45rem 1.0875rem 0.75rem;
@@ -13,7 +15,7 @@ const HeaderWrapper = styled.header`
     font-size: 1em;
 
     a {
-      color: #8fa8c1;
+      color: ${linkColor};
       text-decoration: none;
     }
   }

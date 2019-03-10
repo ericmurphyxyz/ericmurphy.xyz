@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 
+import { linkColor } from "./variables"
 import Header from "./header"
 import "./layout.css"
 
@@ -13,7 +14,7 @@ const Wrapper = styled.div`
   padding: 0px 1.0875rem 1.45rem;
 
   a {
-    color: #8fa8c1;
+    color: ${linkColor};
     text-decoration: none;
     transition: opacity 200ms ease-in-out;
 

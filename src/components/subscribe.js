@@ -1,6 +1,8 @@
 import React, { useState } from "react"
 import styled from "styled-components"
 
+import { textColor, linkColor } from "./variables"
+
 const Form = styled.form`
   & > div {
     display: flex;
@@ -22,9 +24,9 @@ const Form = styled.form`
 
   input[type="submit"] {
     flex: 1;
-    color: #fff;
-    background: #8fa8c1;
-    border: 1px solid #8fa8c1;
+    color: ${textColor};
+    background: ${linkColor};
+    border: 1px solid ${linkColor};
     border-radius: 4px;
     padding: 0.25em 1.25em;
     margin-bottom: 0.5em;

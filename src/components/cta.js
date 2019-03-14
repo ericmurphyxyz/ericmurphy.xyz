@@ -8,14 +8,24 @@ const CtaWrapper = styled.footer`
   margin-bottom: 3em;
 `
 
-const Cta = () => {
+const Cta = ({ location }) => {
   return (
     <CtaWrapper>
-      <p>
-        <strong>Learned something new?</strong> Subscribe to my weekly
-        newsletter and I'll send you an email every Friday about how to become a
-        better developer and make cool things online.
-      </p>
+      {location === `/tutorials-to-real-life/` ? (
+        <p>
+          <strong>Looking for something new to build?</strong> I'm launching a
+          tutorial series soon about learning Gatsby (a great React framework
+          for building static sites)! Beyond just a tutorial, I'll help you
+          build your own personal website and host it for free. Drop your email
+          below and I'll send you an email when it's finished!
+        </p>
+      ) : (
+        <p>
+          <strong>Learned something new?</strong> Subscribe to my weekly
+          newsletter and I'll send you an email every Friday about how to become
+          a better developer and make cool things online.
+        </p>
+      )}
       <Subscribe />
       <p>
         Also, you should follow me on Twitter{" "}

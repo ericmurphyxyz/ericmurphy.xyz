@@ -5,7 +5,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Cta from "../components/cta"
 
-const BlogTemplate = ({ data }) => {
+const BlogTemplate = ({ data, location }) => {
   const post = data.markdownRemark
   const siteTitle = data.site.siteMetadata.title
 
@@ -19,7 +19,7 @@ const BlogTemplate = ({ data }) => {
       <h1>{post.frontmatter.title}</h1>
       <p>{post.frontmatter.date}</p>
       <div dangerouslySetInnerHTML={{ __html: post.html }} />
-      <Cta />
+      <Cta location={location.pathname} />
     </Layout>
   )
 }

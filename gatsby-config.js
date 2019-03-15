@@ -35,6 +35,7 @@ module.exports = {
 
           `gatsby-remark-prismjs`,
           `gatsby-remark-smartypants`,
+          `gatsby-remark-external-links`,
         ],
       },
     },

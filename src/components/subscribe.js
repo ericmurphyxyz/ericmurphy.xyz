@@ -81,8 +81,8 @@ const Subscribe = () => {
             <input
               type="text"
               name="b_5336d953931ddfaf8d6ec81a9_00f901b884"
-              tabindex="-1"
-              value=""
+              tabIndex="-1"
+              defaultValue=""
             />
           </div>
           <div className="clear">

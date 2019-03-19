@@ -1,5 +1,5 @@
 ---
-title: "How to Graduate from Coding Tutorials to Real Life"
+title: "How to graduate from coding tutorials to real life"
 date: "2019-03-19"
 featuredimage: "idle-hands.png"
 ---
@@ -16,7 +16,7 @@ Hmm. It's almost as though just watching endless tutorials isn't enough . . .
 
 I first learned HTML and CSS when I was a nerdy teenager. I didn't have a lot of friends and spent a lot of time at home, so I stayed inside and spent all day on my computer. With a little help from my dad, I learned the basics of making HTML sites, and I set up a fan website for my favorite video game character.
 
-![Kirby](kirby.png)
+![Kirby](kirby.jpg)
 
 Remember this guy? His games were _the shit_!
 

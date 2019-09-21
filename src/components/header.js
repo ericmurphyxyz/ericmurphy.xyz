@@ -1,34 +1,50 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+import PropTypes from "prop-types"
+import { Link } from "gatsby"
+import styled from "styled-components"
+
+const HeaderWrapper = styled.div`
+  position: fixed;
+  width: 100%;
+  background-color: #f3f6f9;
+`
+
+const HeaderContent = styled.header`
+  display: flex;
+  max-width: 1120px;
+  margin: 0 auto;
+`
+
+const Navigation = styled.nav`
+  display: flex;
+  line-height: initial;
+
+  a {
+    padding: 1em 0.75em;
+  }
+`
+
+const Logo = styled.h1`
+  font-size: inherit;
+  line-height: initial;
+  margin: 0;
+  padding: 1em 0.75em;
+  padding-left: 0;
+`
 
 const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
-  </header>
+  <HeaderWrapper>
+    <HeaderContent>
+      <Logo>
+        <Link to="/">{siteTitle}</Link>
+      </Logo>
+      <Navigation>
+        <Link to="/about">About</Link>
+        <Link to="/videos">Videos</Link>
+        <Link to="/contact">Contact</Link>
+      </Navigation>
+    </HeaderContent>
+  </HeaderWrapper>
 )
 
 Header.propTypes = {

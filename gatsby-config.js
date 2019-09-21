@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `Eric Murphy`,
@@ -11,6 +15,14 @@ module.exports = {
       options: {
         name: `images`,
         path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-youtube-v2`,
+      options: {
+        channelId: ["UC-lHJZR3Gqxm24_Vd_AJ5Yw"],
+        apiKey: process.env.YOUTUBE_API_KEY,
+        maxVideos: 2,
       },
     },
     `gatsby-transformer-sharp`,

@@ -17,6 +17,10 @@ const Hero = styled.header`
   grid-template-columns: 1fr 1fr;
   grid-gap: 4em;
   align-items: center;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `
 
 const Column = styled.div``
@@ -26,6 +30,9 @@ const IndexPage = () => (
     <SEO title="Home" />
     <Container>
       <Hero>
+        <Column>
+          <Image />
+        </Column>
         <Column>
           <h1>Hey! I'm Eric Murphy.</h1>
           <p>
@@ -41,9 +48,6 @@ const IndexPage = () => (
             <a href="mailto:ericnmurphy@gmail.com">ericnmurphy@gmail.com</a> to
             get things rolling.
           </p>
-        </Column>
-        <Column>
-          <Image />
         </Column>
       </Hero>
     </Container>

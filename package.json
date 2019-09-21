@@ -6,6 +6,7 @@
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.6",
+    "dotenv": "^8.1.0",
     "gatsby": "^2.15.20",
     "gatsby-image": "^2.2.20",
     "gatsby-plugin-manifest": "^2.2.18",
@@ -14,6 +15,7 @@
     "gatsby-plugin-sharp": "^2.2.25",
     "gatsby-plugin-styled-components": "^3.1.6",
     "gatsby-source-filesystem": "^2.1.26",
+    "gatsby-source-youtube-v2": "^1.0.1",
     "gatsby-transformer-sharp": "^2.2.16",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",

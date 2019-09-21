@@ -4,14 +4,20 @@ import { Link } from "gatsby"
 import styled from "styled-components"
 
 const HeaderWrapper = styled.div`
-  position: fixed;
+  position: relative;
   width: 100%;
   background-color: #f3f6f9;
+  z-index: 99;
+
+  @media (min-width: 768px) {
+    position: fixed;
+  }
 `
 
 const HeaderContent = styled.header`
   display: flex;
-  max-width: 1120px;
+  max-width: 1140px;
+  padding: 0 20px;
   margin: 0 auto;
 `
 

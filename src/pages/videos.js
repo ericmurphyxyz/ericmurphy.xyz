@@ -1,30 +1,20 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
-import Img from "gatsby-image"
 
 import Layout from "../components/layout"
+import Container from "../components/container"
+import Row from "../components/row"
 import SEO from "../components/seo"
 
-const Container = styled.section`
-  height: 100vh;
-`
+const VideoWrapper = styled.iframe`
+  margin-bottom: 0;
+  border: 0;
 
-const Hero = styled.header`
-  display: grid;
-  height: 100%;
-  max-width: 1120px;
-  margin: 0 auto;
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 4em;
-  align-items: center;
-
-  @media (max-width: 768px) {
-    grid-template-columns: 1fr;
+  &:first-child {
+    margin-bottom: 20px;
   }
 `
-
-const Column = styled.div``
 
 const VideosPage = () => {
   const data = useStaticQuery(graphql`
@@ -43,22 +33,22 @@ const VideosPage = () => {
     <Layout>
       <SEO title="Videos" />
       <Container>
-        <Hero>
-          <Column>
+        <Row>
+          <div>
             {data.allYoutubeVideo.edges.map(({ node }) => {
               return (
-                <iframe
+                <VideoWrapper
                   width="100%"
-                  height="290"
+                  height="285"
                   src={"https://www.youtube.com/embed/" + node.videoId}
                   frameborder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                   allowfullscreen
-                ></iframe>
+                ></VideoWrapper>
               )
             })}
-          </Column>
-          <Column>
+          </div>
+          <div>
             <h3>Videos</h3>
             <p>
               I run a YouTube channel making videos teaching people how to
@@ -74,8 +64,8 @@ const VideosPage = () => {
               </a>
               .
             </p>
-          </Column>
-        </Hero>
+          </div>
+        </Row>
       </Container>
     </Layout>
   )

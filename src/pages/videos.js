@@ -64,7 +64,7 @@ const VideosPage = () => {
           {data.allYoutubeVideo.edges.map(({ node }) => {
             return (
               <VideoWrapper
-                src={"https://www.youtube.com/embed/" + node.videoId}
+                src={`https://www.youtube.com/embed/${node.videoId}`}
                 frameborder="0"
                 allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen

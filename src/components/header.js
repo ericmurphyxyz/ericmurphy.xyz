@@ -11,6 +11,10 @@ const HeaderWrapper = styled.header`
 const HeaderContent = styled(Container)`
   display: flex;
   padding: 0 15px;
+
+  a {
+    color: #666;
+  }
 `
 
 const Navigation = styled.nav`

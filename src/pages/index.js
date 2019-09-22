@@ -34,17 +34,26 @@ const IndexPage = () => {
             <Photo fixed={data.image.childImageSharp.fixed} />
             <h1>Hey! I'm Eric Murphy.</h1>
             <p>
-              I build blazing-fast, modern websites and webapps that are a joy
-              to use.
-            </p>
-            <p>
-              I also make videos teaching people how to become better, more
-              effective developers.
+              I build{" "}
+              <strong>blazing-fast, modern websites and web apps</strong> that
+              are a joy to use.
             </p>
             <p>
               Ready to get your project started? Send me a message at{" "}
               <a href="mailto:ericnmurphy@gmail.com">ericnmurphy@gmail.com</a>{" "}
               to get things rolling.
+            </p>
+            <p>
+              I also make videos teaching people how to become better, more
+              effective developers. When I have some free time, I'm usually on{" "}
+              <a
+                href="https://twitter.com/ericnmurphy"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Twitter
+              </a>{" "}
+              as well.
             </p>
           </div>
         </Row>

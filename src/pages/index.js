@@ -1,19 +1,24 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import styled from "styled-components"
 
 import Layout from "../components/layout"
 import Container from "../components/container"
 import Row from "../components/row"
 import SEO from "../components/seo"
 
+const Photo = styled(Img)`
+  margin-bottom: 1em;
+`
+
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
     query {
       image: file(relativePath: { eq: "eric-murphy.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 550, quality: 90) {
-            ...GatsbyImageSharpFluid
+          fixed(width: 290, quality: 100) {
+            ...GatsbyImageSharpFixed
           }
         }
       }
@@ -26,9 +31,7 @@ const IndexPage = () => {
       <Container>
         <Row>
           <div>
-            <Img fluid={data.image.childImageSharp.fluid} />
-          </div>
-          <div>
+            <Photo fixed={data.image.childImageSharp.fixed} />
             <h1>Hey! I'm Eric Murphy.</h1>
             <p>
               I build blazing-fast, modern websites and webapps that are a joy

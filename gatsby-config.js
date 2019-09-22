@@ -22,7 +22,7 @@ module.exports = {
       options: {
         channelId: ["UC-lHJZR3Gqxm24_Vd_AJ5Yw"],
         apiKey: process.env.YOUTUBE_API_KEY,
-        maxVideos: 2,
+        maxVideos: 3,
       },
     },
     `gatsby-transformer-sharp`,

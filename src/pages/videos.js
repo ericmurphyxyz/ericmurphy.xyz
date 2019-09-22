@@ -8,11 +8,17 @@ import Row from "../components/row"
 import SEO from "../components/seo"
 
 const VideoWrapper = styled.iframe`
-  margin-bottom: 0;
+  margin-bottom: 15px;
   border: 0;
+  width: 100%;
+  height: 235px;
 
-  &:first-child {
-    margin-bottom: 20px;
+  &:last-child {
+    margin-bottom: 0;
+  }
+  @media (min-width: 768px) {
+    width: 560px;
+    height: 315px;
   }
 `
 
@@ -34,37 +40,37 @@ const VideosPage = () => {
       <SEO title="Videos" />
       <Container>
         <Row>
-          <div>
-            {data.allYoutubeVideo.edges.map(({ node }) => {
-              return (
-                <VideoWrapper
-                  width="100%"
-                  height="285"
-                  src={"https://www.youtube.com/embed/" + node.videoId}
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></VideoWrapper>
-              )
-            })}
-          </div>
-          <div>
-            <h3>Videos</h3>
-            <p>
-              I run a YouTube channel making videos teaching people how to
-              become better developers and how to build their own web apps.
-            </p>
-            <p>
-              If that sounds interesting, you can{" "}
-              <a
-                href="https://youtube.com/channel/UC5KDiSAFxrDWhmysBcNqtMA"
-                target="_blank"
-              >
-                subscribe to my channel
-              </a>
-              .
-            </p>
-          </div>
+          <h2>Videos</h2>
+          <p>
+            I run a YouTube channel making videos teaching people how to become
+            better developers and how to build their own web apps.
+          </p>
+          <p>
+            This is gonna look a lot more impressive once I get a million
+            subscribers, so stay tuned.
+          </p>
+          <p>
+            If that sounds interesting, feel free to{" "}
+            <a
+              href="https://youtube.com/channel/UC5KDiSAFxrDWhmysBcNqtMA"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              subscribe to my channel
+            </a>
+            .
+          </p>
+          <h3>Recent videos</h3>
+          {data.allYoutubeVideo.edges.map(({ node }) => {
+            return (
+              <VideoWrapper
+                src={"https://www.youtube.com/embed/" + node.videoId}
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></VideoWrapper>
+            )
+          })}
         </Row>
       </Container>
     </Layout>

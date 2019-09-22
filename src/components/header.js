@@ -2,23 +2,15 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import styled from "styled-components"
+import Container from "./container"
 
-const HeaderWrapper = styled.div`
-  position: relative;
-  width: 100%;
+const HeaderWrapper = styled.header`
   background-color: #f3f6f9;
-  z-index: 99;
-
-  @media (min-width: 768px) {
-    position: fixed;
-  }
 `
 
-const HeaderContent = styled.header`
+const HeaderContent = styled(Container)`
   display: flex;
-  max-width: 1140px;
-  padding: 0 20px;
-  margin: 0 auto;
+  padding: 0 15px;
 `
 
 const Navigation = styled.nav`

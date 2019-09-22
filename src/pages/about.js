@@ -51,6 +51,7 @@ const AboutPage = () => {
               React and Gatsby—modern web technologies that won't leave you in
               the last decade of sluggish, cobbled-together websites.
             </p>
+            <p></p>
             <p>
               Ready to get your project started, or want to see specific
               projects I've worked on? Send me a message at{" "}

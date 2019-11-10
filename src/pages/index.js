@@ -44,8 +44,8 @@ const IndexPage = () => {
               to get things rolling.
             </p>
             <p>
-              I also make videos teaching people how to become better, more
-              effective developers. When I have some free time, I'm usually on{" "}
+              {/* I also make videos teaching people how to become better, more effective developers. */}
+              When I have some free time, I'm usually on{" "}
               <a
                 href="https://twitter.com/ericnmurphy"
                 target="_blank"

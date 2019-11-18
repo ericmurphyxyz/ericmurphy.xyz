@@ -5,7 +5,7 @@ import styled from "styled-components"
 import Container from "./container"
 
 const HeaderWrapper = styled.header`
-  background-color: #f3f6f9;
+  background-color: #f6f6f6;
 `
 
 const HeaderContent = styled(Container)`
@@ -13,7 +13,7 @@ const HeaderContent = styled(Container)`
   padding: 0 15px;
 
   a {
-    color: #666;
+    color: hsla(0, 0%, 0%, 0.8);
   }
 `
 
@@ -32,6 +32,10 @@ const Logo = styled.h1`
   margin: 0;
   padding: 1em 0.75em;
   padding-left: 0;
+
+  a {
+    color: #1771f1;
+  }
 `
 
 const Header = ({ siteTitle }) => (

@@ -18,7 +18,7 @@ const AboutPage = () => {
       image: file(relativePath: { eq: "cat-about.jpg" }) {
         childImageSharp {
           fixed(width: 290, quality: 90) {
-            ...GatsbyImageSharpFixed
+            ...GatsbyImageSharpFixed_withWebp_noBase64
           }
         }
       }

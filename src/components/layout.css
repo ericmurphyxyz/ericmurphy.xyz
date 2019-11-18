@@ -42,7 +42,7 @@ template {
 a {
   background-color: transparent;
   -webkit-text-decoration-skip: objects;
-  color: #1771f1;
+  color: #0260e8;
   text-decoration: none;
   transition: opacity 200ms ease-in-out;
 }

@@ -34,7 +34,7 @@ const Logo = styled.h1`
   padding-left: 0;
 
   a {
-    color: #1771f1;
+    color: #0260e8;
   }
 `
 

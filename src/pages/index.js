@@ -17,7 +17,7 @@ const IndexPage = () => {
     query {
       image: file(relativePath: { eq: "eric-murphy.jpg" }) {
         childImageSharp {
-          fixed(width: 290, quality: 100) {
+          fixed(width: 290, quality: 90) {
             ...GatsbyImageSharpFixed
           }
         }

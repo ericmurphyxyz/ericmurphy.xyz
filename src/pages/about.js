@@ -17,7 +17,7 @@ const AboutPage = () => {
     query {
       image: file(relativePath: { eq: "cat-about.jpg" }) {
         childImageSharp {
-          fixed(width: 290, quality: 100) {
+          fixed(width: 290, quality: 90) {
             ...GatsbyImageSharpFixed
           }
         }

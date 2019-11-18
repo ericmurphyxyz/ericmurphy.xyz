@@ -2,19 +2,11 @@ import React from "react"
 import PropTypes from "prop-types"
 import { Link } from "gatsby"
 import styled from "styled-components"
+
 import Container from "./container"
 
 const HeaderWrapper = styled.header`
   background-color: #f6f6f6;
-`
-
-const HeaderContent = styled(Container)`
-  display: flex;
-  padding: 0 15px;
-
-  a {
-    color: hsla(0, 0%, 0%, 0.8);
-  }
 `
 
 const Navigation = styled.nav`
@@ -23,6 +15,7 @@ const Navigation = styled.nav`
 
   a {
     padding: 1em 0.75em;
+    color: hsla(0, 0%, 0%, 0.8);
   }
 `
 
@@ -30,17 +23,12 @@ const Logo = styled.h1`
   font-size: inherit;
   line-height: initial;
   margin: 0;
-  padding: 1em 0.75em;
-  padding-left: 0;
-
-  a {
-    color: #0260e8;
-  }
+  padding: 1em 0.75em 1em 0;
 `
 
 const Header = ({ siteTitle }) => (
   <HeaderWrapper>
-    <HeaderContent>
+    <Container>
       <Logo>
         <Link to="/">{siteTitle}</Link>
       </Logo>
@@ -49,7 +37,7 @@ const Header = ({ siteTitle }) => (
         {/* <Link to="/videos">Videos</Link> */}
         <Link to="/contact">Contact</Link>
       </Navigation>
-    </HeaderContent>
+    </Container>
   </HeaderWrapper>
 )
 

@@ -625,3 +625,6 @@ pre tt:after {
     font-size: 100%;
   }
 }
+.gatsby-image-wrapper {
+  margin-bottom: 1em;
+}

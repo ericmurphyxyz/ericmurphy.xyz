@@ -1,14 +1,9 @@
 import React from "react"
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
-import styled from "styled-components"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
-const Photo = styled(Img)`
-  margin-bottom: 1em;
-`
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -26,7 +21,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO />
-      <Photo fixed={data.image.childImageSharp.fixed} />
+      <Img fixed={data.image.childImageSharp.fixed} />
       <h1>Hey! I'm Eric Murphy.</h1>
       <p>
         I build <strong>blazing-fast, modern websites and web apps</strong> that

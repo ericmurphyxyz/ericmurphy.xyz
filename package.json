@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "ericnmurphy",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "description": "Personal site/portfolio, built with Gatsby",
+  "version": "1.0.0",
+  "author": "Eric Murphy <ericnmurphy@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.6",
     "dotenv": "^8.1.0",
@@ -43,7 +43,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/ericnmurphy/ericnmurphy"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"

@@ -25,7 +25,8 @@ function SEO({ description, lang, meta, title }) {
     `
   )
 
-  const metaTitle = title || site.siteMetadata.title
+  const siteTitle = site.siteMetadata.title
+  const metaTitle = title || siteTitle
   const metaDescription = description || site.siteMetadata.description
 
   return (
@@ -33,8 +34,9 @@ function SEO({ description, lang, meta, title }) {
       htmlAttributes={{
         lang,
       }}
-      title={metaTitle}
-      titleTemplate={`%s | ${site.siteMetadata.title}`}
+      title={title}
+      defaultTitle={siteTitle}
+      titleTemplate={`%s | ${siteTitle}`}
       meta={[
         {
           name: `description`,

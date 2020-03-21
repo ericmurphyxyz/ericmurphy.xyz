@@ -1,5 +1,5 @@
 import React from "react"
-import { useStaticQuery, graphql } from "gatsby"
+import { Link, graphql } from "gatsby"
 import styled from "styled-components"
 
 import Layout from "../components/layout"
@@ -13,22 +13,7 @@ const Article = styled.article`
   }
 `
 
-const BlogPage = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
-        edges {
-          node {
-            frontmatter {
-              title
-              subtitle
-            }
-          }
-        }
-      }
-    }
-  `)
-
+export default ({ data }) => {
   return (
     <Layout>
       <SEO title="Blog" />
@@ -38,9 +23,9 @@ const BlogPage = () => {
 
         return (
           <Article key={i}>
-            <a href="">
+            <Link to={node.fields.slug}>
               <h3>{title}</h3>
-            </a>
+            </Link>
             <p>{subtitle}</p>
           </Article>
         )
@@ -49,4 +34,20 @@ const BlogPage = () => {
   )
 }
 
-export default BlogPage
+export const data = graphql`
+  query {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      edges {
+        node {
+          frontmatter {
+            title
+            subtitle
+          }
+          fields {
+            slug
+          }
+        }
+      }
+    }
+  }
+`

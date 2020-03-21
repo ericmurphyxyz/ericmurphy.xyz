@@ -18,13 +18,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
-    },
-    {
       resolve: `gatsby-source-youtube-v2`,
       options: {
         channelId: ["UC-lHJZR3Gqxm24_Vd_AJ5Yw"],

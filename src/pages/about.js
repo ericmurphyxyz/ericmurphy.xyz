@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 const AboutPage = () => {
   const data = useStaticQuery(graphql`
     query {
-      image: file(relativePath: { eq: "cat-about.jpg" }) {
+      image: file(relativePath: { eq: "images/cat-about.jpg" }) {
         childImageSharp {
           fixed(width: 290) {
             ...GatsbyImageSharpFixed_withWebp

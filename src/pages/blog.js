@@ -34,7 +34,7 @@ const BlogPage = () => {
       <SEO title="Blog" />
       <h2>Blog</h2>
       {data.allMarkdownRemark.edges.map(({ node }, i) => {
-        const { title, subtitle, date } = node.frontmatter
+        const { title, subtitle } = node.frontmatter
 
         return (
           <Article key={i}>

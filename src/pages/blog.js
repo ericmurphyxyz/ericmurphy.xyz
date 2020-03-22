@@ -8,7 +8,7 @@ import SEO from "../components/seo"
 const Article = styled.article`
   margin-bottom: 2.5em;
 
-  h3 {
+  h2 {
     margin-bottom: 0.35em;
   }
 `
@@ -17,14 +17,14 @@ export default ({ data }) => {
   return (
     <Layout>
       <SEO title="Blog" />
-      <h2>Blog</h2>
+      <h1>Blog</h1>
       {data.allMarkdownRemark.edges.map(({ node }, i) => {
         const { title, subtitle } = node.frontmatter
 
         return (
           <Article key={i}>
             <Link to={node.fields.slug}>
-              <h3>{title}</h3>
+              <h2>{title}</h2>
             </Link>
             <p>{subtitle}</p>
           </Article>

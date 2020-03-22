@@ -36,7 +36,7 @@ const VideosPage = () => {
   return (
     <Layout>
       <SEO title="Videos" />
-      <h2>Videos</h2>
+      <h1>Videos</h1>
       <p>
         I run a YouTube channel making videos teaching people how to become
         better developers and how to build their own web apps.

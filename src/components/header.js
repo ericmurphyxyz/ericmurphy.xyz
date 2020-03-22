@@ -19,7 +19,7 @@ const Navigation = styled.nav`
   }
 `
 
-const Logo = styled.h1`
+const Logo = styled(Link)`
   font-size: inherit;
   line-height: initial;
   margin: 0;
@@ -29,11 +29,10 @@ const Logo = styled.h1`
 const Header = ({ siteTitle }) => (
   <HeaderWrapper>
     <Container>
-      <Logo>
-        <Link to="/">{siteTitle}</Link>
-      </Logo>
+      <Logo to="/">{siteTitle}</Logo>
       <Navigation>
         <Link to="/about">About</Link>
+        <Link to="/blog">Blog</Link>
         {/* <Link to="/videos">Videos</Link> */}
         <Link to="/contact">Contact</Link>
       </Navigation>

@@ -22,7 +22,7 @@ const AboutPage = () => {
     <Layout>
       <SEO title="About" />
       <div>
-        <h2>About</h2>
+        <h1>About</h1>
         <p>
           I'm Eric, and I've been building websites and web apps for 5+ years
           for great clients all over the world.

@@ -17,6 +17,7 @@ import "./layout.css"
 const Row = styled.div`
   padding: 3em 0;
   max-width: 768px;
+  width: 100%;
 `
 
 const Layout = ({ children }) => {

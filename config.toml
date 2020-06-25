@@ -1,18 +1,15 @@
+baseURL = "https://ericmurphy.xyz/"
 title = "Eric Murphy"
+
+[permalinks]
+    post = "/blog/:slug"
 
 [menu]
 
   [[menu.main]]
     name = "Blog"
     url = "/blog"
-
-  [[menu.main]]
-    name = "About"
-    url = "/about"
-
-  [[menu.main]]
-    name = "Contact"
-    url = "/contact"
+    weight = 10
 
   [[menu.social]]
     name = "YouTube"

@@ -1,0 +1,9 @@
+{{ define "main" }}
+
+  {{ range .Paginator.Pages }}
+<article class="teaser">
+  <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+</article>
+  {{ end }}
+
+{{ end }}

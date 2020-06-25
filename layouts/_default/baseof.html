@@ -13,14 +13,16 @@
   <body>
     <header>
       {{ block "header" . }}
-        <h1>
-	  <a href="/">{{ .Site.Title }}</a>
-	</h1>
+	<a href="/">{{ .Site.Title }}</a>
         {{ partial "menu" . }}
         {{ partial "social" . }}
       {{ end }}
     </header>
     {{ block "main" . }}
+      <main>
+        <h1>{{ .Page.Title }}</h1>
+        {{ .Content }}
+      <main>
     {{ end }}
   </body>
 </html>

@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 	font-weight: 700;
-	font-size: 3rem;
+	font-size: 2rem;
 }
 
 /* LAYOUT */
@@ -82,7 +82,18 @@ h1 {
 	fill: var(--text-color);
 }
 
+/* HOME */
+
+.home h1 {
+	font-size: 3rem;
+}
+
 /* BLOG */
+
+.summary {
+	display: block;
+	margin-bottom: 10px;
+}
 
 .summary h3 {
 	display: inline;

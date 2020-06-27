@@ -1,9 +1,9 @@
 {{ with .Site.Menus.social }}
-<nav class="menu">
+<div class="social">
   <ul>
     {{ range . -}}
     <li><a href="{{ .URL }}" aria-label="{{ .Name}}" target="_blank" rel="noopener noreferrer">{{ .Pre }}</a></li>
     {{ end -}}
   </ul>
-</nav>
+</div>
 {{ end }}

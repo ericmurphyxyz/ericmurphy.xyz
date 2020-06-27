@@ -8,12 +8,14 @@
         {{ .Site.Title }}
       {{ end }}
     </title>
+	<link rel="stylesheet" href="/css/style.css" type="text/css" media="all">
   </head>
 
   <body>
-    <header>
+	<div class="container">
+    <header class="site-header">
       {{ block "header" . }}
-	<a href="/">{{ .Site.Title }}</a>
+	<a class="logo" href="/">{{ .Site.Title }}</a>
         {{ partial "menu" . }}
         {{ partial "social" . }}
       {{ end }}
@@ -24,5 +26,6 @@
         {{ .Content }}
       <main>
     {{ end }}
+	</div>
   </body>
 </html>

@@ -1,0 +1,91 @@
+:root {
+	--text-color: #a9b1d6;
+	--header-color: #FF9E64;
+	--navigation-color: #7AA2F7;
+	--link-color: #9ECE6A;
+	--background: #1a1b26;
+}
+
+body {
+	background-color: var(--background);
+	color: var(--text-color);
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;
+    font-weight: 400;
+	font-size: 112.5%;
+	margin: 0;
+}
+
+a {
+	color: var(--link-color);
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: var(--header-color);
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 3rem;
+}
+
+/* LAYOUT */
+
+.container {
+	max-width: 768px;
+	margin: 0 auto;
+	padding: 10px
+}
+
+/* SITE HEADER */
+
+.site-header {
+	display: flex;
+	align-items: center;
+}
+
+.site-header a {
+	display: block;
+	font-weight: 700;
+	color: var(--text-color);
+	text-decoration: none;
+	padding: 10px;
+	margin-right: 5px;
+}
+
+.site-header li:last-child a {
+	margin-right: 0;
+}
+
+.site-header .logo {
+	color: var(--navigation-color);
+	padding-left: 0;
+	padding-right: 10px;
+}
+
+.site-header ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.social {
+	margin-left: auto;
+}
+
+.social svg {
+	display: block;
+}
+
+.social path {
+	fill: var(--text-color);
+}
+
+/* BLOG */
+
+.summary h3 {
+	display: inline;
+	color: var(--link-color);
+	margin-right: 5px;
+}

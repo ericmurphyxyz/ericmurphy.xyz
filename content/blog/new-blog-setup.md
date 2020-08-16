@@ -1,6 +1,6 @@
 ---
 title: "New blog and website setup (with Hugo)"
-date: 2020-06-27T21:36:11+07:00
+date: 2020-08-16T18:52:28+07:00
 draft: false
 ---
 

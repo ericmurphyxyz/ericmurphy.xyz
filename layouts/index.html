@@ -1,7 +1,10 @@
 
 {{ define "main" }}
-<main class="home">
-	{{ .Content }}
+<main>
+	<section class="intro">
+		{{ .Content }}
+	</section>
+	<h2>Blog</h2>
 	{{ range (.Paginate (where site.RegularPages "Type" "in" site.Params.mainSections)).Pages }}
 		<div class="summary">
 			<a href="{{ .Permalink }}">

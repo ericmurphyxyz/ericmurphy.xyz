@@ -19,7 +19,6 @@ a {
 
 h1 {
   font-size: 2em;
-  margin: 1em 0;
 }
 
 h2 {
@@ -28,12 +27,6 @@ h2 {
 
 h3 {
   font-size: 1em;
-}
-
-@media screen and (max-width: 768px) {
-  body {
-    font-size: 125%;
-  }
 }
 
 /* LAYOUT */

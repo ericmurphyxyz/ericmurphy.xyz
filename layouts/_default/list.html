@@ -1,9 +1,13 @@
 {{ define "main" }}
 
-  {{ range .Paginator.Pages }}
+<h1>{{ .Title }}</h1>
+
+{{ range.Paginator.Pages }}
 <article class="teaser">
-  <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+  <h3>
+    <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+  </h3>
 </article>
-  {{ end }}
+{{ end }}
 
 {{ end }}

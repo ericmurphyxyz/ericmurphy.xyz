@@ -1,132 +1,63 @@
-:root {
-  --text-color: #a9b1d6;
-  --primary-color: #ff9e64;
-  --background-color: #1a1b26;
-}
+/* LAYOUT */
 
 body {
-  background-color: var(--background-color);
-  color: var(--text-color);
-  font-weight: 400;
-  font-size: 150%;
+  color: #333;
+  font-size: 125%;
   line-height: 1.5;
   margin: 0;
 }
 
-a {
-  color: var(--primary-color);
-}
-
-h1 {
-  font-size: 2em;
-  margin: 1em 0;
-}
-
-h2 {
-  font-size: 1.25em;
-}
-
-h3 {
-  font-size: 1em;
-}
-
-@media screen and (max-width: 768px) {
-  body {
-    font-size: 125%;
-  }
-}
-
-/* LAYOUT */
-
 .container {
-  max-width: 45em;
-  padding: 5em 1em;
+  max-width: 45rem;
+  padding: 1rem;
   margin: 0 auto;
 }
 
-@media screen and (max-width: 768px) {
-  .container {
-    padding: 1em;
-  }
+.content {
+  margin-bottom: 2rem;
 }
 
-/* SITE HEADER */
+/* NAVIGATION */
 
-.site-header {
+.site-nav {
   display: flex;
-  align-items: center;
 }
 
-.site-header a {
+.site-nav a {
   display: block;
-  color: var(--text-color);
-  padding: 0.5em;
-  margin-right: 5px;
+  padding: 1rem;
 }
 
-.site-header li:last-child a {
-  margin-right: 0;
-}
-
-.site-header .logo {
-  color: var(--primary-color);
+.site-nav .logo {
+  font-weight: bold;
   padding-left: 0;
 }
 
-.site-header ul {
+.main-menu {
   display: flex;
   list-style: none;
   margin: 0;
   padding: 0;
 }
 
-.social {
-  margin-left: auto;
-}
-
-.social svg {
-  display: block;
-}
-
-.social path {
-  fill: var(--primary-color);
-}
-
-@media screen and (max-width: 768px) {
-  .site-header,
-  .site-header nav ul {
+@media screen and (max-width: 48rem) {
+  .site-nav,
+  .main-menu {
     flex-direction: column;
-    align-items: initial;
   }
 
-  .site-header a {
-    padding: 0.25em 1em 0.25em 0;
-  }
-
-  .social {
-    padding-top: 10px;
-    margin-left: 0;
+  .site-nav a {
+    padding: 0.5rem;
+    padding-left: 0;
   }
 }
 
-/* HOME PAGE */
+/* LISTS */
 
-.intro {
-  margin-bottom: 3em;
+.post-snippet {
+  margin-bottom: 1rem;
 }
 
-/* BLOG */
-
-.summary {
-  display: block;
-  margin-bottom: 10px;
-}
-
-.summary h3 {
-  display: inline;
-  color: var(--link-color);
-}
-
-.summary a {
-  margin-right: 0.5em;
+.post-snippet h3 {
+  margin-bottom: 0.25rem;
 }

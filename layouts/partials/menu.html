@@ -1,9 +1,0 @@
-{{ with .Site.Menus.main }}
-<nav class="menu">
-  <ul>
-    {{ range . -}}
-    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-    {{ end -}}
-  </ul>
-</nav>
-{{ end }}

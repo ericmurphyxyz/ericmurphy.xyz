@@ -1,19 +1,5 @@
+{{ partial "header.html" . }}
 
-{{ define "main" }}
-<main>
-	<section class="intro">
-		{{ .Content }}
-	</section>
-	<h2>Blog</h2>
-	{{ range (.Paginate (where site.RegularPages "Type" "in" site.Params.mainSections)).Pages }}
-		<div class="summary">
-			<a href="{{ .Permalink }}">
-				<h3>{{ .Title }}</h3>
-			</a>
-			<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
-				{{- .Date.Format "January 2, 2006" -}}
-			</time>
-		</div>
-    {{ end }}
-</main>
-{{ end }}
+{{ .Content }}
+
+{{ partial "footer.html" . }}

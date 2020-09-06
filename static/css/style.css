@@ -8,9 +8,15 @@ body {
     Segoe UI Emoji, Segoe UI Symbol;
   font-size: 125%;
   line-height: 1.5;
-  max-width: 45rem;
+  max-width: 65rem;
   padding: 1rem;
   margin: 0 auto;
+}
+
+h1 {
+  font-size: 2em;
+  line-height: 1.25;
+  margin-top: 0;
 }
 
 a {
@@ -25,7 +31,40 @@ strong {
   margin-bottom: 2rem;
 }
 
+/* HOME */
+
+.hero {
+  display: flex;
+}
+
+.hero div:first-child {
+  padding-right: 2.5rem;
+}
+
+.hero div:last-child {
+  flex-basis: 50%;
+}
+
+.hero img {
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+@media screen and (max-width: 48rem) {
+  .hero {
+    flex-direction: column-reverse;
+  }
+
+  .hero img {
+    margin-bottom: 1rem;
+  }
+}
+
 /* NAVIGATION */
+
+.site-header {
+  margin-bottom: 2rem;
+}
 
 .site-nav {
   display: flex;

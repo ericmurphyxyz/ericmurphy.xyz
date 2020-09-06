@@ -1,16 +1,24 @@
 /* LAYOUT */
 
 body {
-  color: #333;
+  background-color: #131313;
+  color: #f7f1ff;
+  font-family: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman,
+    Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji,
+    Segoe UI Emoji, Segoe UI Symbol;
   font-size: 125%;
   line-height: 1.5;
-  margin: 0;
-}
-
-.container {
   max-width: 45rem;
   padding: 1rem;
   margin: 0 auto;
+}
+
+a {
+  color: #fd9353;
+}
+
+strong {
+  color: #7bd890;
 }
 
 .content {
@@ -26,11 +34,13 @@ body {
 .site-nav a {
   display: block;
   padding: 1rem;
+  color: #f7f1ff;
 }
 
 .site-nav .logo {
   font-weight: bold;
   padding-left: 0;
+  color: #fc618d;
 }
 
 .main-menu {

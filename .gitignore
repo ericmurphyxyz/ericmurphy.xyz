@@ -1,2 +1,3 @@
 public/
 deploy
+.hugo_build.lock

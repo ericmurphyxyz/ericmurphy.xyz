@@ -9,7 +9,7 @@
 	{{ with .OutputFormats.Get "rss" -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
 	{{ end -}}
-	<script async defer data-website-id="b74ca2af-7174-4bb3-bf4f-541cb4448d48" src="https://umami.ericmurphy.xyz/umami.js"></script>
+	<script async defer data-domains="ericmurphy.xyz" data-website-id="b74ca2af-7174-4bb3-bf4f-541cb4448d48" src="https://umami.ericmurphy.xyz/umami.js"></script>
 </head>
 
 <body>

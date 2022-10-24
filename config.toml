@@ -7,18 +7,18 @@ title = "Eric Murphy"
 [menu]
 
   [[menu.main]]
-    name = "Uses"
-    url = "uses"
+    name = "Videos"
+    url = "/videos"
     weight = 10
 
   [[menu.main]]
-    name = "Videos"
-    url = "https://www.youtube.com/channel/UC5KDiSAFxrDWhmysBcNqtMA"
+    name = "Software I Use"
+    url = "/uses"
     weight = 20
 
   [[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/ericmurphyxyz"
+    name = "Links"
+    url = "/links"
     weight = 30
 
   [[menu.main]]

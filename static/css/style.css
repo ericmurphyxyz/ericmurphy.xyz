@@ -44,11 +44,12 @@ strong {
 }
 
 .hero div:first-child {
+  flex-basis: 65%;
   padding-right: 2.5rem;
 }
 
 .hero div:last-child {
-  flex-basis: 50%;
+  flex-basis: 35%;
 }
 
 .hero img {

@@ -7,16 +7,21 @@ title = "Eric Murphy"
 [menu]
 
   [[menu.main]]
+    name = "Uses"
+    url = "uses"
+    weight = 10
+
+  [[menu.main]]
     name = "Videos"
     url = "https://www.youtube.com/channel/UC5KDiSAFxrDWhmysBcNqtMA"
-    weight = 10
+    weight = 20
 
   [[menu.main]]
     name = "GitHub"
     url = "https://github.com/ericmurphyxyz"
-    weight = 20
+    weight = 30
 
   [[menu.main]]
     name = "Contact"
     url = "mailto:eric@ericmurphy.xyz"
-    weight = 30
+    weight = 40

@@ -1,0 +1,7 @@
+<!--
+	src: url the image directs to
+	alt: alternative text
+-->
+<img class="icon" src="/images/icons/{{ .Get "src" }}"
+	{{- with .Get "alt" }} alt="{{.}}"{{ end -}}
+>

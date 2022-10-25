@@ -29,8 +29,15 @@ a {
   color: #fd9353;
 }
 
-strong {
-  color: #7bd890;
+code {
+  overflow-wrap: break-word;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  vertical-align: text-top;
+  padding-right: 5px;
 }
 
 .content {

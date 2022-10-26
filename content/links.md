@@ -13,6 +13,7 @@ Here are some links to where you can find me online. I've also included links to
 - [Luke Smith](https://lukesmith.xyz/) - Blog of a YouTuber that writes about Linux, software, and philosophy.
 - [Drew DeVault](https://drewdevault.com/) - Thoughts about FOSS from the founder of sourcehut.
 - [Open Source Musings](https://opensourcemusings.com/) - A blog about Linux and open source.
+- [Mr. Money Mustache](https://www.mrmoneymustache.com/) - Lifestyle/finance blog about "early retirement". In reality, it's about not being a wasteful consumer who defaults to the standard American lifestyle of getting into debt and buying tons of useless garbage.
 - [Tynan](https://tynan.com) - Lifestyle blog with some interesting thoughts. He does yearly "gear review" posts where you can find a lot of good-quality equipment recommendations, especially if you want to live more minimally or travel.
 
 ## Interesting Websites

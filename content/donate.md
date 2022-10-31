@@ -4,6 +4,7 @@ title: Donate
 
 If my work has helped you at all, donations are greatly appreciated! If you'd like to send me a message along with your donation, please [send me an email](mailto:eric@ericmurphy.xyz).
 
+- {{< icon src="paypal.svg" >}} **PayPal** - [Use this link](https://paypal.me/ericmurphyxyz) or you can send money to [eric@ericmurphy.xyz](mailto:eric@ericmurphy.xyz).
 - {{< icon src="zelle.svg" >}} **Zelle** - You can send money to [eric@ericmurphy.xyz](mailto:eric@ericmurphy.xyz).
 
 ## Crypto

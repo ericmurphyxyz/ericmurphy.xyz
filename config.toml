@@ -7,26 +7,31 @@ title = "Eric Murphy"
 [menu]
 
   [[menu.main]]
+    name = "Blog"
+    url = "/blog"
+    weight = 10
+
+  [[menu.main]]
     name = "Videos"
     url = "/videos"
-    weight = 10
+    weight = 20
 
   [[menu.main]]
     name = "Software I Use"
     url = "/uses"
-    weight = 20
+    weight = 30
 
   [[menu.main]]
     name = "Links"
     url = "/links"
-    weight = 30
+    weight = 40
 
   [[menu.main]]
     name = "Donate"
     url = "/donate"
-    weight = 40
+    weight = 50
 
   [[menu.main]]
     name = "Contact"
     url = "mailto:eric@ericmurphy.xyz"
-    weight = 50
+    weight = 60

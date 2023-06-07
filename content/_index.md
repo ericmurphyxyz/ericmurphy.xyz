@@ -1,7 +1,14 @@
-# Hi, I'm Eric Murphy.
+# Hey, I'm Eric.
 
-I run a small [YouTube channel](https://youtube.com/@ericmurphyxyz) making videos about Linux and web development. I try to help the web become a better place by showing alternatives to using privacy-invading products and services like Google.
+I'm a **web developer** and **[YouTuber](https://youtube.com/@ericmurphyxyz)**. I try to make things like making websites and Linux simple enough for anyone to understand.
 
-I'm also a freelance web developer, creating hand-crafted websites for small businesses that are fast and customer-friendly.
+This website is meant to be my **"home base"** on the internet. I'll post some thoughts about things I'm interested in, whether it's about desktop Linux, building minimalistic websites, or books I'm currently reading.
 
-If you'd like to get in touch, you can email me at [eric@ericmurphy.xyz](mailto:eric@ericmurphy.xyz).
+If things look a little empty here, know that there is **more to come!**
+
+## Looking for something?
+
+- 📽 Watch my videos on [YouTube](https://youtube.com/@ericmurphyxyz) or [Odysee](https://odysee.com/@ericnmurphy).
+- 📜 Find my dotfiles and scripts on [GitHub](https://github.com/ericmurphyxyz).
+- 💻 Want to know what programs I use on a daily basis or how I make my desktop look cool? See my [Uses](/uses) page.
+- ✉ Want to get in touch? Feel free to [drop me a message](/contact).

@@ -1,6 +1,6 @@
 # Hey, I'm Eric.
 
-I'm a **web developer** and **[YouTuber](https://youtube.com/@ericmurphyxyz)**. I try to make things like making websites and Linux simple enough for anyone to understand.
+I'm a **web developer** and **YouTuber**. I try to make things like making websites and Linux simple enough for anyone to understand.
 
 This website is meant to be my **"home base"** on the internet. I'll post some thoughts about things I'm interested in, whether it's about desktop Linux, building minimalistic websites, or books I'm currently reading.
 

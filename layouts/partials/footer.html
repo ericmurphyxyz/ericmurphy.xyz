@@ -1,4 +1,19 @@
 </main>
 
+<footer class="site-footer">
+    <p><a href="/uncopyright">Uncopyrighted</a> and built by Eric Murphy.</p>
+    <p>Built with <a href="https://gohugo.io" target="_blank" rel="noopener noreferrer">Hugo</a>. View the source code <a href="https://github.com/ericmurphyxyz/ericmurphy.xyz" target="_blank" rel="noopener noreferrer">on GitHub</a>.</p>
+
+    <ul class="menu menu-social">
+      {{ range.Site.Menus.social -}}
+      <li>
+        <a href="{{ .URL }}" target="_blank" rel="noopener noreferrer">
+          {{ partial "icon.html" (dict "icon" .Pre "title" .Name ) }}
+        </a>
+      </li>
+      {{- end }}
+    </ul>
+</footer>
+
 </body>
 </html>

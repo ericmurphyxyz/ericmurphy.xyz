@@ -3,6 +3,7 @@
     --color-background: #181825;
     --color-text: #cdd6f4;
     --color-text-strong: #eff1f5;
+    --color-subtext: #7f849c;
     --color-primary: #a6e3a1;
     --color-secondary: #fab387;
 
@@ -21,7 +22,7 @@ body {
     margin: 0 auto;
 }
 
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 64rem) {
     body {
         font-size: 100%;
     }
@@ -54,15 +55,21 @@ svg {
     display: block;
 }
 
+.icon-inline {
+    display: inline-block;
+    vertical-align: text-top;
+    padding-right: 5px;
+}
+
 .content {
     max-width: 65rem;
     padding: 3rem;
     margin: 0 auto 2rem;
 }
 
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 64rem) {
     .content {
-        padding-top: 2rem;
+        padding-top: 1rem;
         padding-left: 5vw;
         padding-right: 5vw;
     }
@@ -82,12 +89,6 @@ svg {
     margin: 0 auto;
 }
 
-.site-nav a {
-    display: block;
-    padding: 1rem;
-    color: var(--color-primary);
-}
-
 .site-nav .logo {
     color: var(--color-text-strong);
     font-size: 1.5rem;
@@ -103,7 +104,13 @@ svg {
     padding: 0;
 }
 
-@media screen and (max-width: 48rem) {
+.menu a {
+    display: block;
+    padding: 1rem;
+    color: var(--color-primary);
+}
+
+@media screen and (max-width: 64rem) {
     .site-header {
         padding-top: 1rem;
         padding-bottom: 1rem;
@@ -145,7 +152,7 @@ svg {
     width: 100%;
 }
 
-@media screen and (max-width: 48rem) {
+@media screen and (max-width: 64rem) {
     .hero {
         flex-direction: column-reverse;
     }
@@ -155,6 +162,47 @@ svg {
         margin-bottom: 1rem;
     }
 }
+
+/* Footer */
+
+.site-footer {
+    max-width: 65rem;
+    padding: 3rem;
+    padding-top: 1rem;
+    margin: 0 auto 2rem;
+}
+
+.site-footer p {
+    color: var(--color-subtext);
+    font-size: 1rem;
+    text-align: center;
+}
+
+.site-footer .menu {
+    justify-content: center;
+    flex-direction: row;
+}
+
+.site-footer .menu a {
+    padding: 0.5rem;
+}
+
+@media screen and (max-width: 64rem) {
+    .site-footer {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    .site-footer p {
+        font-size: 0.75rem;
+    }
+
+    .site-footer .menu a svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
 
 /* LISTS */
 

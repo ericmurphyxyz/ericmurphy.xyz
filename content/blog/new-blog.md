@@ -7,7 +7,7 @@ It's time for a new website, and **a new philosophy behind my website**.
 
 Functionally, the website isn't much different from the previous iteration. The styles are a little bit different and things are a little bit better organized. But under the hood, I'm still using [Hugo](https://gohugo.io), my favorite static site generator. There isn't some crazy technological change or a massive, ground-up redesign.
 
-But my approach to the website is going to be very different. A kind of sad realization I recently made is that **the personal website is just about dead**. You've probably seen these kinds of websites a lot--if you visit someone's website these days, most of the time it will be a blank white (sometimes black) page with a photo of them, one s entence about them, and 3-5 links to their social media accounts. Sometimes, if you're really lucky, you'll get a handful of blog posts (with the last one written three years ago).
+But my approach to the website is going to be very different. A kind of sad realization I recently made is that **the personal website is just about dead**. You've probably seen these kinds of websites a lot--if you visit someone's website these days, most of the time it will be a blank white (sometimes black) page with a photo of them, one sentence about them, and 3-5 links to their social media accounts. Sometimes, if you're really lucky, you'll get a handful of blog posts (with the last one written three years ago).
 
 {{<image src="old-website.jpg" alt="My old website with only a few links to my social media and nothing else" caption="My old website. Yes, this was the only page on the website.">}}
 
@@ -19,8 +19,8 @@ I get it--it's more gratifying to post on a social media where you can immediate
 
 ## What to expect
 
-So going forward, I'm going to start to fill out my website. I've done the same to my website and basically used it as just a "Linktree" clone for people to find my various presences online. But I'd like others to do the same as me and actually have an interesting place to call home on the web. So I'd better start by "leading the way", in a way.
+So going forward, I'm going to start to fill out my website. In the past, I've done the same thing as others and basically used my website as just a "Linktree" clone for people to find my various presences online. But I'd like others to do the same as me and actually have an interesting place to call home on the web. So I'd better start by "leading the way", in a way.
 
-I know, this is getting to be a cliche of the personal website--a redesign and a commitment to start "posting more" only to never touch it again for the next year. But I've grown so disillusioned with the modern web that I want to contribute to actually making it better instead of just complaining about it.
+I know, this is getting to be a cliché of the personal website--a redesign and a commitment to start "posting more" only to never touch it again for the next year. But I've grown so disillusioned with the modern web that I want to contribute to actually making it better instead of just complaining about it.
 
 **There's a lot of people lamenting the state of the web, but not a lot actively participating in making it better.** So hopefully, in some small way, I can help to break the cycle.

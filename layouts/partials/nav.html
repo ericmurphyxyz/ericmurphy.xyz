@@ -3,10 +3,21 @@
     <a class="logo" href="{{ .Site.BaseURL }}">
       {{ .Site.Title }}
     </a>
-    <ul class="main-menu">
+
+    <ul class="menu">
       {{ range.Site.Menus.main -}}
       <li>
         <a href="{{ .URL }}">{{ .Name }}</a>
+      </li>
+      {{- end }}
+    </ul>
+
+    <ul class="menu menu-social">
+      {{ range.Site.Menus.social -}}
+      <li>
+        <a href="{{ .URL }}" target="_blank" rel="noopener noreferrer">
+          {{ partial "icon.html" (dict "icon" .Pre "title" .Name ) }}
+        </a>
       </li>
       {{- end }}
     </ul>

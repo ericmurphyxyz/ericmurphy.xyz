@@ -17,7 +17,7 @@ title = "Eric Murphy"
     weight = 20
 
   [[menu.main]]
-    name = "Software I Use"
+    name = "Uses"
     url = "/uses"
     weight = 30
 
@@ -27,11 +27,29 @@ title = "Eric Murphy"
     weight = 40
 
   [[menu.main]]
-    name = "Donate"
-    url = "/donate"
+    name = "Contact"
+    url = "mailto:eric@ericmurphy.xyz"
     weight = 50
 
   [[menu.main]]
-    name = "Contact"
-    url = "mailto:eric@ericmurphy.xyz"
+    name = "Donate"
+    url = "/donate"
     weight = 60
+
+  [[menu.social]]
+    name = "GitHub"
+    pre = "github"
+    url = "https://github.com/ericmurphyxyz"
+    weight = 10
+
+  [[menu.social]]
+    name = "YouTube"
+    pre = "youtube"
+    url = "https://youtube.com/@ericmurphyxyz"
+    weight = 20
+
+  [[menu.social]]
+    name = "RSS Feed"
+    pre = "rss"
+    url = "/index.xml"
+    weight = 30

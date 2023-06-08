@@ -1,5 +1,5 @@
 {{ $icon := .Get "icon" }}
-{{- $fname:=print "icons/" $icon ".svg" -}}
+{{- $fname:=print "assets/icons/" $icon ".svg" -}}
 {{- $svg := readFile $fname -}}
 <span class="icon-inline">{{ $svg | safeHTML }}</span>
 

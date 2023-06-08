@@ -1,0 +1,15 @@
+{{ $src := print "images/" (.Get "src") }}
+{{ $original := resources.Get $src }}
+{{ $image := resources.Get $src }}
+{{ if gt $image.Width 960 }}
+{{ $image = $image.Resize "960x" }}
+{{ end }}
+
+{{ $alt := .Get "alt" }}
+{{ $caption := .Get "caption" }}
+<figure>
+    <a href="{{ $original.RelPermalink }}">
+        <img src="{{ $image.RelPermalink }}" alt="{{ $alt }}" />
+    </a>
+    <figcaption>{{ $caption }}</figcaption>
+</figure>

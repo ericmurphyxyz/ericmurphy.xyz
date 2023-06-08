@@ -1,4 +1,4 @@
-{{- $fname:=print "icons/" .icon ".svg" -}}
+{{- $fname:=print "assets/icons/" .icon ".svg" -}}
 {{- $svg := readFile $fname -}}
 {{- $filledPathSvg := replace $svg "<path" "<path fill='currentColor'" -}}
 {{- $titledSvg := replaceRE "<svg (.*?)>" (printf `<svg role="img" width="28" height="28" $1 ><title>%s</title>` .title) $filledPathSvg -}}

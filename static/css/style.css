@@ -72,6 +72,7 @@ svg {
         padding-top: 1rem;
         padding-left: 5vw;
         padding-right: 5vw;
+        margin-bottom: 0;
     }
 }
 
@@ -110,6 +111,14 @@ svg {
     color: var(--color-primary);
 }
 
+.site-nav .menu-social a {
+    padding: 1rem 0.75rem;
+}
+
+.site-nav .menu-social li:last-child a {
+    padding-right: 0;
+}
+
 @media screen and (max-width: 64rem) {
     .site-header {
         padding-top: 1rem;
@@ -127,7 +136,7 @@ svg {
         padding-left: 0;
     }
 
-    .site-header .menu-social {
+    .site-nav .menu-social {
         display: none;
     }
 }

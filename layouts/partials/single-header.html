@@ -1,0 +1,14 @@
+{{ $date := .PublishDate.UTC.Format "Jan 2, 2006" }}
+{{ $lastmod := .Lastmod.UTC.Format "Jan 2, 2006" }}
+
+<header class="single-header">
+    <h1 class="single-title">{{ .Title }}</h1>
+
+    {{ if (not .PublishDate.IsZero) }}
+    <time class="single-date" datetime="{{ .PublishDate }}" title="{{ .PublishDate }}">Published on {{ $date }}</time>
+    {{ end }}
+
+    {{ if and ( .Lastmod ) ( ne .Lastmod .PublishDate) }}
+    <time class="single-date" datetime="{{ .Lastmod }}" title="{{ .Lastmod }}">Updated on {{ $lastmod }}</time>
+    {{ end }}
+</header>

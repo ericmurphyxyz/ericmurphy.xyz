@@ -51,7 +51,7 @@ code {
     overflow-wrap: break-word;
 }
 
-svg {
+date, svg {
     display: block;
 }
 
@@ -239,4 +239,19 @@ figcaption {
 
 .post-snippet h3 {
     margin-bottom: 0.25rem;
+}
+
+/* Single posts/pages */
+
+.single-header {
+    margin-bottom: 3rem;
+}
+
+.single-title {
+    margin-bottom: 1rem;
+}
+
+.single-date {
+    color: var(--color-subtext);
+    font-style: italic;
 }

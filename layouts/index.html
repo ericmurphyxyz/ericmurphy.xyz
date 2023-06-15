@@ -2,12 +2,15 @@
 
 <section class="hero">
 <div>
-{{ .Content }}
+<h1>{{ .Title }}</h1>
+{{ .Description | markdownify }}
 </div>
 <div>
 <img src="/images/eric.jpg" alt="Eric Murphy" />
 </div>
 </section>
+
+{{ .Content }}
 
 <h2>Latest posts</h2>
 <ul class="home-posts">

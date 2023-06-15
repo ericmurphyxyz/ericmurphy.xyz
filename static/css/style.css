@@ -190,6 +190,19 @@ figcaption {
     }
 }
 
+.home-posts {
+    list-style: none;
+    padding: 0;
+}
+
+.home-posts-item {
+    margin-bottom: 1rem;
+}
+
+.home-posts-item a {
+    font-weight: bold;
+}
+
 /* Footer */
 
 .site-footer {
@@ -231,14 +244,21 @@ figcaption {
 }
 
 
-/* LISTS */
+/* List pages */
 
 .post-snippet {
     margin-bottom: 1rem;
 }
 
 .post-snippet h3 {
-    margin-bottom: 0.25rem;
+    margin-top: 0;
+}
+
+.post-date {
+    color: var(--color-subtext);
+    display: block;
+    font-size: 1rem;
+    font-style: italic;
 }
 
 /* Single posts/pages */

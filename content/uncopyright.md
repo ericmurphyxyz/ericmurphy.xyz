@@ -2,7 +2,7 @@
 title: Uncopyright
 ---
 
-All content on this website is copyright free. Yes, that means that means that everything is under the public domain and you can use and reuse the content or code of this website however you would like.
+All content on this website is copyright free. Yes, that means that everything is under the public domain and you can use and reuse the content or code of this website however you would like.
 
 Attribution is appreciated, but not required.
 

@@ -16,9 +16,7 @@
 body {
     background-color: var(--color-background);
     color: var(--color-text);
-    font-family: var(--font-sans);
-    font-size: 125%;
-    line-height: 1.5;
+    font: 1.2rem/1.625 var(--font-sans);
     margin: 0 auto;
 }
 
@@ -83,6 +81,16 @@ figcaption {
     max-width: 60rem;
     padding: 3rem;
     margin: 0 auto 2rem;
+}
+
+.content > * {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content > figure {
+    max-width: 100%;
 }
 
 @media screen and (max-width: 64rem) {
@@ -162,7 +170,9 @@ figcaption {
 /* Home page */
 
 .hero {
+    max-width: 100%;
     display: flex;
+    margin-bottom: 4rem;
 }
 
 .hero div:first-child {
@@ -264,7 +274,14 @@ figcaption {
 /* Single posts/pages */
 
 .single-header {
+    max-width: 100%;
     margin-bottom: 3rem;
+}
+
+.single-header > * {
+    max-width: 50rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .single-title {
@@ -272,6 +289,11 @@ figcaption {
 }
 
 .single-date {
+    display: block;
     color: var(--color-subtext);
     font-style: italic;
+}
+
+.single-header figure {
+    max-width: 100%;
 }

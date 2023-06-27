@@ -1,6 +1,7 @@
 /* Variables */
 :root {
     --color-background: #181825;
+    --color-background-alt: #1e1e2e;
     --color-text: #cdd6f4;
     --color-text-strong: #eff1f5;
     --color-subtext: #7f849c;
@@ -16,13 +17,13 @@
 body {
     background-color: var(--color-background);
     color: var(--color-text);
-    font: 1.2rem/1.625 var(--font-sans);
+    font: 1.2rem/1.65 var(--font-sans);
     margin: 0 auto;
 }
 
 @media screen and (max-width: 64rem) {
     body {
-        font-size: 100%;
+        font-size: 1.125rem;
     }
 }
 
@@ -45,7 +46,18 @@ strong {
     color: var(--color-text-strong);
 }
 
+ul {
+    margin: 0;
+    padding: 0 0 0 1.25rem;
+}
+
+li {
+    margin-bottom: 0.5rem;
+}
+
 code {
+    color: var(--color-text-strong);
+    font-weight: bold;
     overflow-wrap: break-word;
 }
 
@@ -77,21 +89,37 @@ figcaption {
     padding-bottom: 1rem;
 }
 
+/* Page layout */
+
 .content {
-    max-width: 60rem;
-    padding: 3rem;
+    display: grid;
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+    max-width: 80rem;
+    padding: 3rem 0;
     margin: 0 auto 2rem;
 }
 
 .content > * {
-    max-width: 50rem;
-    margin-left: auto;
-    margin-right: auto;
+    grid-column: 3/span 8;
 }
 
-.content > figure {
-    max-width: 100%;
+.content > .full-width {
+    grid-column: 2/span 10;
 }
+
+.content-inner {
+    display: grid;
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+}
+
+.content-inner > * {
+    grid-column: 2/span 8;
+}
+
+.content-inner > .full-width {
+    grid-column: 1/-1;
+}
+
 
 @media screen and (max-width: 64rem) {
     .content {
@@ -99,6 +127,49 @@ figcaption {
         padding-left: 5vw;
         padding-right: 5vw;
         margin-bottom: 0;
+    }
+
+    .content > * {
+        grid-column: 2/span 10;
+    }
+
+    .content > .full-width {
+        grid-column: 1/-1;
+    }
+}
+
+@media screen and (max-width: 48rem) {
+    .content > *, .content-inner > * {
+        grid-column: 1/-1;
+    }
+}
+
+/* Additional elements */
+
+.card {
+    margin-bottom: 3rem;
+    padding: 2rem 0 4.5rem;
+    position: relative;
+}
+
+.card-background {
+    background-color: var(--color-background-alt);
+    border-radius: 1rem;
+    position: absolute;
+    width: calc(100% + 10vw);
+    height: 100%;
+    margin-left: -5vw;
+    margin-right: -5vw;
+    inset: 0;
+}
+
+.card-content {
+    position: relative;
+}
+
+@media screen and (max-width: 48rem) {
+    .card-background {
+        border-radius: 0;
     }
 }
 
@@ -131,6 +202,10 @@ figcaption {
     padding: 0;
 }
 
+.menu li {
+    margin-bottom: 0;
+}
+
 .menu a {
     display: block;
     padding: 1rem;
@@ -146,6 +221,16 @@ figcaption {
 }
 
 @media screen and (max-width: 64rem) {
+    .site-nav .menu-social {
+        display: none;
+    }
+
+    .site-nav .menu li:last-child a {
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 48rem) {
     .site-header {
         padding-top: 1rem;
         padding-bottom: 1rem;
@@ -160,10 +245,6 @@ figcaption {
     .site-nav a {
         padding: 0.25rem 0.5rem;
         padding-left: 0;
-    }
-
-    .site-nav .menu-social {
-        display: none;
     }
 }
 
@@ -278,12 +359,6 @@ figcaption {
     margin-bottom: 3rem;
 }
 
-.single-header > * {
-    max-width: 50rem;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .single-title {
     margin-bottom: 1rem;
 }
@@ -292,8 +367,4 @@ figcaption {
     display: block;
     color: var(--color-subtext);
     font-style: italic;
-}
-
-.single-header figure {
-    max-width: 100%;
 }

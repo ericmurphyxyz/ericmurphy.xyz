@@ -2,7 +2,7 @@
 {{ $lastmod := .Lastmod.UTC.Format "Jan 2, 2006" }}
 {{ $image := (.Resources.ByType "image").GetMatch "images/*featured*" }}
 
-<header class="single-header">
+<header class="single-header content-inner full-width">
     <h1 class="single-title">{{ .Title }}</h1>
 
     {{ if (not .PublishDate.IsZero) }}
@@ -22,7 +22,7 @@
         {{ $image = $image.Resize "960x" }}
         {{ end }}
 
-        <figure>
+        <figure class="full-width">
         <a href="{{ $original.RelPermalink }}">
             <picture>
                 <source srcset="{{ $webp.RelPermalink }}" type="image/webp">

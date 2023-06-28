@@ -1,0 +1,10 @@
+{{ $jpg := resources.Get "images/avatar/avatar.jpg" }}
+{{ $webp := resources.Get "images/avatar/avatar.webp" }}
+
+<figure>
+    <picture>
+        <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
+        <img src="{{ $jpg.RelPermalink }}" alt="{{ site.Title }}" />
+    </picture>
+</figure>
+

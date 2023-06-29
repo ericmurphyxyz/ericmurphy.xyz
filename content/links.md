@@ -15,6 +15,7 @@ Websites not about any specific topic, but included because I like their writing
 
 - **[~bt](https://bt.ht/)**
 - **[bikobatanari](https://www.bikobatanari.art/)**
+- **[Cheapskate's Guide](https://cheapskatesguide.org/)**
 - **[CozyNet](https://www.cozynet.org/)**
 - **[Drew DeVault](https://drewdevault.com/)**
 - **[Jared White](https://jaredwhite.com/)**

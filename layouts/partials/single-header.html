@@ -1,16 +1,11 @@
-{{ $date := .PublishDate.UTC.Format "Jan 2, 2006" }}
-{{ $lastmod := .Lastmod.UTC.Format "Jan 2, 2006" }}
 {{ $image := (.Resources.ByType "image").GetMatch "images/*featured*" }}
+
 
 <header class="single-header content-inner full-width">
     <h1 class="single-title">{{ .Title }}</h1>
 
-    {{ if (not .PublishDate.IsZero) }}
-    <time class="single-date" datetime="{{ .PublishDate }}" title="{{ .PublishDate }}">Published on {{ $date }}</time>
-    {{ end }}
-
     {{ if and ( .Lastmod ) ( ne .Lastmod .PublishDate) }}
-    <time class="single-date" datetime="{{ .Lastmod }}" title="{{ .Lastmod }}">Updated on {{ $lastmod }}</time>
+    <time class="single-date" datetime="{{ .Lastmod }}" title="{{ .Lastmod }}">Last updated {{ .Lastmod.UTC.Format "January" }} {{ .Lastmod.UTC.Format "2" | humanize }}, {{ .Lastmod.UTC.Format "2006" }}.</time>
     {{ end }}
 
     {{ with .Params.featured_image }}

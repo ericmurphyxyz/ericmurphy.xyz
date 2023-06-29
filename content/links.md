@@ -1,5 +1,6 @@
 ---
 title: Links
+lastmod: 2023-06-29
 ---
 
 Here are some links to other websites that I find useful or interesting. Since search engines tend to only rank the most popular sites with few exceptions, [finding interesting small websites is increasingly difficult](/blog/discoverability/). This is my way of helping to correct that.

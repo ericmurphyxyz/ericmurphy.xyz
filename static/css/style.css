@@ -7,10 +7,13 @@
     --color-subtext: #7f849c;
     --color-primary: #a6e3a1;
     --color-secondary: #fab387;
+    --color-tertiary: #89b4fa;
 
     --font-serif: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     --font-sans: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
     --font-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace; 
+
+    --border-radius: 1rem;
 }
 
 /* Global styles */
@@ -136,6 +139,10 @@ figcaption {
     .content > .full-width {
         grid-column: 1/-1;
     }
+
+    .content-inner {
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+    }
 }
 
 @media screen and (max-width: 48rem) {
@@ -154,7 +161,7 @@ figcaption {
 
 .card-background {
     background-color: var(--color-background-alt);
-    border-radius: 1rem;
+    border-radius: var(--border-radius);
     position: absolute;
     width: calc(100% + 10vw);
     height: 100%;
@@ -171,6 +178,19 @@ figcaption {
     .card-background {
         border-radius: 0;
     }
+}
+
+.note {
+    background-color: var(--color-background-alt);
+    border-radius: var(--border-radius);
+    font-size: 1rem;
+    margin: 1rem 0;
+    padding: 1.5rem 2rem 1.5rem;
+}
+
+.note-header {
+    display: block;
+    margin-bottom: 0.75rem;
 }
 
 /* Header and navigation */

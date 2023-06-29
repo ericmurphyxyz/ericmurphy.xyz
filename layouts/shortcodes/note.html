@@ -1,0 +1,6 @@
+{{ $title := .Get "title" }}
+
+<aside class="note">
+    <strong class="note-header">{{ $title }}</strong>
+    {{ .Inner | markdownify }}
+</aside>

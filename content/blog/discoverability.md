@@ -73,4 +73,4 @@ At this point, I think that every personal website should have a Links page, and
 
 Besides having your own links page, you can also link to other websites in your content. In this article, I've already linked to a handful of other interesting websites that you can explore. I resonated with [a post I recently read](https://manuelmoreale.com/i-hate-internal-linking) about how websites need more links to other websites, not just to other pages on the website. I don't entirely agree with the article, but I think the more you can link to others' websites, the easier it is for your users to find great content.
 
-Of course, I have a [Links](/links) page as well. Browse through some of the links and see how many other Links pages you can find!
+{{<note title="Wondering where to start?">}}Of course, I have a [Links](/links) page as well. Browse through some of the links and see how many other Links pages you can find!{{</note>}}

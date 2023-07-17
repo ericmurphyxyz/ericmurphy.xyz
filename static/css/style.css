@@ -71,10 +71,20 @@ li {
     margin-bottom: 0.5rem;
 }
 
-code {
+.content > code {
+    font-family: var(--font-mono);
     color: var(--color-text-strong);
     font-weight: bold;
     overflow-wrap: break-word;
+}
+
+pre {
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    overflow: auto;
+    border-radius: var(--border-radius);
+    padding: 1.6rem 1.8rem 1.8rem;
+    margin-bottom: 3rem;
 }
 
 date, svg {

@@ -53,3 +53,9 @@ title = "Eric Murphy"
     pre = "rss"
     url = "/index.xml"
     weight = 30
+
+
+
+[markup]
+  [markup.highlight]
+    style = 'catppuccin-macchiato'

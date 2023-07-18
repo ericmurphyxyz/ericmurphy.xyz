@@ -4,7 +4,7 @@
 <figure class="full-width">
     {{ $data := newScratch }}
     {{ if gt $src.Width 1100 }}
-      {{ $data.Set "webp" ($src.Resize "1100x webp q90") }}
+      {{ $data.Set "webp" ($src.Resize "960x webp q90") }}
     {{ else }}
       {{ $data.Set "webp" ($src.Resize (printf "%dx%d webp q90" $src.Width $src.Height)) }}
     {{ end }}
@@ -14,6 +14,6 @@
     <a href="{{ $src }}">
       <img src="{{ $webp.RelPermalink }}" alt="{{ .Text }}" loading="lazy" decoding="async" width="{{ $src.Width }}" height="{{ $src.Height }}" />
     </a>
-    {{ with .Title }}<figcaption>{{ . }}</figcaption>{{ end }}
+    {{ with .Title }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
 </figure>
 {{end}}

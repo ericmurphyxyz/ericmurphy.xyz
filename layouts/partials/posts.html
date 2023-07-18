@@ -1,0 +1,10 @@
+<section class="posts">
+  {{- range.Data.Pages -}}
+  <article class="post-preview">
+      <time class="post-date" datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}">
+          {{ .Date.Format "January 2, 2006" }}
+      </time>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+  </article>
+  {{ end }}
+</section>

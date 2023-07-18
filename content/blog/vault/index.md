@@ -1,6 +1,6 @@
 ---
 title: "The Vault"
-date: "2023-07-17"
+date: "2023-07-18"
 ---
 
 I used to have a blog back in 2018 about web development. I ended up writing seven posts and even getting a decent amount of traction, but I ultimately stopped writing and decided to delete all the old posts from my website after I redesigned my site. Since then, I've put most of my effort into my [YouTube channel](https://youtube.com/@ericmurphyxyz) instead.

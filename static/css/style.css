@@ -9,9 +9,10 @@
     --color-secondary: #fab387;
     --color-tertiary: #89b4fa;
 
-    --font-serif: Iowan Old Style, Apple Garamond, Baskerville, Times New Roman, Droid Serif, Times, Source Serif Pro, serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-    --font-sans: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+    --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace; 
+    --font-size: 1.15rem;
+    --line-height: 1.5;
 
     --border-radius: 1rem;
 }
@@ -24,7 +25,7 @@
 body {
     background-color: var(--color-background);
     color: var(--color-text);
-    font: 1.2rem/1.65 var(--font-sans);
+    font: var(--font-size)/var(--line-height) var(--font-sans);
     margin: 0 auto;
 }
 
@@ -35,7 +36,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-serif);
+    font-family: var(--font-sans);
     color: var(--color-text-strong);
 }
 
@@ -71,13 +72,6 @@ li {
     margin-bottom: 0.5rem;
 }
 
-.content > code {
-    font-family: var(--font-mono);
-    color: var(--color-text-strong);
-    font-weight: bold;
-    overflow-wrap: break-word;
-}
-
 pre {
     font-family: var(--font-mono);
     font-size: 1rem;
@@ -98,12 +92,14 @@ date, svg {
 }
 
 figure {
-    margin: 2rem auto 1rem;
+    margin: 2rem auto 2rem;
     text-align: center;
 }
 
 figure img {
     max-width: 100%;
+    height: auto;
+    border-radius: var(--border-radius);
 }
 
 figcaption {
@@ -112,7 +108,10 @@ figcaption {
     font-style: italic;
     text-align: center;
     padding-top: 0.5rem;
-    padding-bottom: 1rem;
+}
+
+header + figure {
+    margin-top: 0;
 }
 
 /* Page layout */
@@ -120,9 +119,11 @@ figcaption {
 .content {
     display: grid;
     grid-template-columns: repeat(12, minmax(0, 1fr));
-    max-width: 80rem;
+    max-width: 72rem;
     padding: 3rem 0;
     margin: 0 auto 2rem;
+    
+    line-height: 1.6;
 }
 
 .content > * {
@@ -174,6 +175,15 @@ figcaption {
     }
 }
 
+/* Blog elements */
+
+.content > code {
+    font-family: var(--font-mono);
+    color: var(--color-text-strong);
+    font-weight: bold;
+    overflow-wrap: break-word;
+}
+
 /* Additional elements */
 
 .card {
@@ -215,6 +225,12 @@ figcaption {
 .note-header {
     display: block;
     margin-bottom: 0.75rem;
+}
+
+.vault {
+    color: var(--color-subtext);
+    font-size: 1rem;
+    margin-top: 3rem;
 }
 
 /* Header and navigation */
@@ -381,7 +397,11 @@ figcaption {
 
 /* List pages */
 
-.post-snippet {
+.posts {
+    margin-top: 1rem;
+}
+
+.post-preview {
     margin-bottom: 1rem;
 }
 

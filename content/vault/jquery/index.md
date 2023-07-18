@@ -1,9 +1,9 @@
 ---
 title: "Don't waste your time: Why you shouldn't learn jQuery in 2018"
 pubDate: "2018-10-18"
-heroImage: "./jquery.png"
-heroImageAlt: "jQuery code showing the text \"It's time to stop\""
 ---
+
+![jQuery](jquery.png)
 
 If you're learning web development in 2018—do yourself a favor and _don't_ learn jQuery.
 

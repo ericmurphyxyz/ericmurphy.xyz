@@ -1,8 +1,9 @@
 ---
 title: "Why I Stopped Using Analytics on My Website"
 date: 2023-06-19
-featured_image: "analytics.png"
 ---
+
+![An analytics dashboard](analytics.png)
 
 This website is **analytics-free**!
 

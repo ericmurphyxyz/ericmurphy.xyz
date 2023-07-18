@@ -1,9 +1,9 @@
 ---
 title: "Why you shouldn't use semicolons when you're learning JavaScript"
 pubDate: "2018-10-30"
-heroImage: "./semicolon.png"
-heroImageAlt: "A semicolon"
 ---
+
+![Semicolon](semicolon.png)
 
 If you're new to JavaScript, I'm sure you've learned that you put a semicolon at the end of each expression. That's just what you do, right? But if you're learning JavaScript, not only do you not _need_ to use semicolons in JavaScript, you're making your life harder by using them.
 

@@ -17,7 +17,7 @@ Hmm. It's almost as though just watching endless tutorials isn't enough . . .
 
 I first learned HTML and CSS when I was a nerdy teenager. I didn't have a lot of friends and spent a lot of time at home, so I stayed inside and spent all day on my computer. With a little help from my dad, I learned the basics of making HTML sites, and I set up a fan website for my favorite video game character.
 
-![Kirby](./kirby.jpg)
+![Kirby](kirby.jpg)
 
 Remember this guy? His games were _the shit_!
 
@@ -39,7 +39,7 @@ All I need is a quick view of my three most important tasks for the day. That wa
 
 So I'm making a Chrome extension that'll display the three tasks I want to get done as a new tab page.
 
-![To-do list](./to-do.png)
+![To-do list](to-do.png)
 
 I built it with React Hooks to get better at those, as well as learn how to set up a new Chrome extension from scratch. I've never done that before, so I had to learn how to write a `manifest.json` file, use Chrome's storage API, get better at `styled-components`, and learn new things about HTML and CSS. (Did you know the `contenteditable` attribute was a thing? I sure didn't. It allows you to have a totally editable `div` instead of a normal `textarea` or `input`.)
 
@@ -59,7 +59,7 @@ I remember watching a React tutorial from LevelUpTutorials. Great tutorial, but 
 
 Yawn, movies are so boring. Like I said, great tutorial, but I couldn't care less about movies.
 
-![Movies](./movies.jpg)
+![Movies](movies.jpg)
 
 But I love what Scott Tolinski (the guy who made the tutorial) said about his tutorials in a podcast episode.
 
@@ -73,7 +73,7 @@ After you finish a tutorial, you should be thinking about ways you can apply wha
 
 You can take ideas from other people, too. When I was first learning JavaScript, I found the idea to make a tic-tac-toe game from FreeCodeCamp.
 
-![Tic-tac-toe](./tic-tac-toe.png)
+![Tic-tac-toe](tic-tac-toe.png)
 
 It bent my brain because I had no idea how to make anything like it. How do you make a tic-tac-toe grid? How do you make a turn system? Can you make a simple AI? How do you check who wins? It really got the problem-solving part of my brain working.
 
@@ -93,13 +93,13 @@ Doesn't have to be anything huge. I had a client project working with WordPress'
 
 I've always liked the idea of doing something every single day to make it into a habit. The only way to get better at coding and become a "real-life" developer is just to practice it, a lot. I try to push something to GitHub at least once a day. Because what could be more motivating than seeing a beautiful, green, contribution graph?
 
-![Github contribution graph](./github-green.png)
+![Github contribution graph](github-green.png)
 
 Disclaimer: Not my contribution graph, I'm not that productive.
 
 I like the idea of these "maker communities" like [WIP](https://wip.chat/) and [Makerlog](https://getmakerlog.com/) that have gotten popular recently. It's a bunch of people, mostly independent developers or business owners, that get together to "ship" something every day. Whether that's shipping a new feature, bugfix, or finally launching a new product, you try to preserve your daily "ship" streak as long as possible.
 
-![WIP Maker Community](./wip.png)
+![WIP Maker Community](wip.png)
 
 Yes, writing this blog post counts.
 
@@ -109,6 +109,6 @@ Plus, you join a community of people working to get shit done together. Everyone
 
 OK, now I expect you to make something! No, this isn't a blog post to get you motivated without you actually doing anything. You need to get off your ass and get started with something. Take a recent tutorial you took and build something based off the technology. Doesn't have to be anything crazy. But it should be something that pushes your limits a little and that you can be proud of once you're finished.
 
-![Idle hands build nothing](./idle-hands.png)
+![Idle hands build nothing](idle-hands.png)
 
 I like the quote, "idle hands build nothing" (that I first heard from a web dev sticker pack, of all places). Stop consuming and start creating. After all, that's what becoming a developer is all about: building something from nothing!

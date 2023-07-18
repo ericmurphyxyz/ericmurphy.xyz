@@ -57,5 +57,7 @@ title = "Eric Murphy"
 
 
 [markup]
+  [markup.goldmark.parser]
+    wrapStandAloneImageWithinParagraph = false
   [markup.highlight]
     style = 'catppuccin-macchiato'

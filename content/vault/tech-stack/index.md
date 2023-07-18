@@ -1,9 +1,9 @@
 ---
 title: "Who TF cares about what tech stack you use?"
 pubDate: "2018-11-02"
-heroImage: "./frameworks.png"
-heroImageAlt: "Angular, React, and Vue logo"
 ---
+
+![Frameworks](frameworks.png)
 
 I always see these dumbass debates online about what framework is better. Well, is it React, Vue, or Angular? Should you build your backend with Ruby on Rails, Node and Express, or Prisma and GraphQL Yoga?
 

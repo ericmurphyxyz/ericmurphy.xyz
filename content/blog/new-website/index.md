@@ -9,7 +9,7 @@ Functionally, the website isn't much different from the previous iteration. The 
 
 But my approach to the website is going to be very different. A kind of sad realization I recently made is that **the personal website is just about dead**. You've probably seen these kinds of websites a lot--if you visit someone's website these days, most of the time it will be a blank white (sometimes black) page with a photo of them, one sentence about them, and 3-5 links to their social media accounts. Sometimes, if you're really lucky, you'll get a handful of blog posts (with the last one written three years ago).
 
-{{<image src="old-website.png" alt="My old website with only a few links to my social media and nothing else" caption="My old website. Yes, this was the only page on the website.">}}
+![My old website with only a few links to my social media and nothing else"](old-website.png "My old website. Yes, this was the only page on the website.")
 
 Personal websites are dead because all of the actual important content anyone posts is on a different website. You don't upload photos to your website any more; you upload them to Instagram. Random thoughts? Twitter. Your resume? LinkedIn. Some personal websites have taken this to its logical conclusion and now just redirect straight to their Twitter or LinkedIn account.
 

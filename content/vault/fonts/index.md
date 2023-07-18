@@ -1,9 +1,9 @@
 ---
 title: "How to make your sites look good without 1 million slow-ass Google fonts"
 pubDate: "2018-10-24"
-heroImage: "./tweet.png"
-heroImageAlt: "Using a web font that only a trained typographer can tell is different from Georgia seems like a waste of bandwidth."
 ---
+
+![Tweet](tweet.png)
 
 Web fonts are cool, but too many and they're slow as hell. If you're using a bunch of them, you're taking a hit in your website's performance. Not to mention if you're loading in the base font, the italics, the bold, the extra bold, etc . . .
 

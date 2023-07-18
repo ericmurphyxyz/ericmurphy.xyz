@@ -11,7 +11,7 @@ My motivation for the software and operating system I use is to be as efficient 
 
 If you're looking for something that's not listed on this page, feel free to [contact me](mailto:eric@ericmurphy.xyz) and ask.
 
-{{<image src="desktop.png" alt="My desktop" caption="My cool desktop!! Which is actually just the most efficient way I've found to do my work.">}}
+![My Desktop](desktop.png "My cool desktop!! Which is actually just the most efficient way I've found to do my work.")
 
 ## The Basics
 

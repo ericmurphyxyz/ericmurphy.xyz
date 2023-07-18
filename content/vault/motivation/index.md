@@ -1,9 +1,9 @@
 ---
 title: "How to actually stay motivated to learn how to code"
 pubDate: "2018-10-26"
-heroImage: "./just-do-it.png"
-heroImageAlt: "The Nike \"Just Do It\" campaign replaced with \"Just Code It\""
 ---
+
+![Motivation](just-do-it.png)
 
 Learning to code is a bitch.
 

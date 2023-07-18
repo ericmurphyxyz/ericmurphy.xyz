@@ -15,7 +15,7 @@ So let's find out how to find these websites.
 
 ## Webrings are back?
 
-{{< image src="webrings.png" alt="A website with links to three different webrings" caption="The more webrings you're in, the cooler you are." >}}
+![A website with links to three different webrings](webrings.png "The more webrings you're in, the cooler you are.")
 
 If you're not aware of this ancient technology, you're probably not old enough to remember. But in the early days of the internet, this was a way of finding new websites in a similar niche.
 
@@ -41,7 +41,7 @@ But due to all of these issues, I can't really recommend any webrings as a good 
 
 ## Search engines (but not the ones you're thinking of)
 
-{{< image src="wiby.png" alt="Wiby search engine" caption="\"A search engine for the classic web.\"" >}}
+![Wiby search engine](wiby.png "\"A search engine for the classic web.\"")
 
 Obviously, I'm not talking about search engines like Google here. Nor am I talking about DuckDuckGo, Brave, or any others, becaues they all have the same issue of being completely unable to surface any small, independent websites.
 
@@ -59,7 +59,7 @@ There are some other "indie" search engines out there, but at least in my experi
 
 ## Curated lists
 
-{{< image src="cozylinks.png" alt="A cozy links page" caption="88x31 site banners are optional." >}}
+![A cozy links page](cozylinks.png "88x31 site banners are optional.")
 
 The last, and in my opinion, the best, way of finding independent websites is the classic "[Links](/links)" page.
 

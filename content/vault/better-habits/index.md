@@ -1,9 +1,9 @@
 ---
 title: "5 non-developer habits that will make you a better developer"
 pubDate: "2018-11-09"
-heroImage: "./habits.jpg"
-heroImageAlt: "A tree in the middle of a field"
 ---
+
+![Habits](habits.jpg)
 
 I always like reading articles about how to become a more effective developer. Yes, I'm the guy learning all the keyboard shortcuts and downloading all the VS Code extensions for that extra 1% in my productivity.
 

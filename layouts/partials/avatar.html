@@ -1,10 +1,12 @@
-{{ $jpg := resources.Get "images/avatar/avatar.jpg" }}
-{{ $webp := resources.Get "images/avatar/avatar.webp" }}
+{{ $original := resources.Get "images/avatar.jpg" }}
+
+{{ $data := newScratch }}
+{{ $data.Set "webp" ($original.Resize "255x webp q90") }}
+{{ $webp := $data.Get "webp" }}
 
 <figure>
     <picture>
-        <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
-        <img src="{{ $jpg.RelPermalink }}" alt="{{ site.Title }}" width="{{ $jpg.Width }}" height="{{ $jpg.Height }}" />
+        <img src="{{ $webp.RelPermalink }}" alt="{{ site.Title }}" width="{{ $webp.Width }}" height="{{ $webp.Height }}" />
     </picture>
 </figure>
 

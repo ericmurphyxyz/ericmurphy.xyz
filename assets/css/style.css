@@ -72,6 +72,19 @@ li {
     margin-bottom: 0.5rem;
 }
 
+blockquote {
+    margin: 1rem 0 2rem 1rem;
+    padding: 0.6rem 1.5rem 0;
+    border-inline-start: 0.35rem solid var(--color-secondary);
+    font-style: italic;
+}
+
+@media screen and (max-width: 64rem) {
+    blockquote {
+        margin-left: 0;
+    }
+}
+
 pre {
     font-family: var(--font-mono);
     font-size: 1rem;

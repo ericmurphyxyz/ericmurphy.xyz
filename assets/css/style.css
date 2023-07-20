@@ -13,12 +13,13 @@
 
     --color-background: #fff;
     --color-background-alt: #f1f5f9;
+    --color-background-code: #1e293b;
     --color-text: #334155;
     --color-text-bright: #1e293b;
     --color-text-strong: #020617;
     --color-subtext: #475569;
-    --color-primary: #ec4899;
-    --color-accent: #0ea5e9;
+    --color-primary: #db2777;
+    --color-accent: #0284c7;
 }
 
 /* Dark theme */
@@ -87,7 +88,7 @@ strong {
     color: var(--color-text-strong);
 }
 
-ul {
+ul, ol {
     margin-bottom: 1.5rem;
     padding: 0 0 0 1.25rem;
 }
@@ -110,6 +111,7 @@ blockquote {
 }
 
 pre {
+    background-color: var(--color-background-code) !important;
     font-family: var(--font-mono);
     font-size: 1rem;
     overflow: auto;

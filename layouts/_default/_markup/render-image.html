@@ -1,19 +1,26 @@
 {{ $src := .Page.Resources.GetMatch (printf "%s" (.Destination | safeURL)) }}
+
 {{ if $src }}
-
 <figure class="full-width">
-    {{ $data := newScratch }}
-    {{ if gt $src.Width 1100 }}
-      {{ $data.Set "webp" ($src.Resize "960x webp q90") }}
-    {{ else }}
-      {{ $data.Set "webp" ($src.Resize (printf "%dx%d webp q90" $src.Width $src.Height)) }}
-    {{ end }}
+  {{ $data := newScratch }}
 
-    {{ $webp := $data.Get "webp" }}
+  {{ if gt $src.Width 1100 }}
+    {{ $data.Set "webp" ($src.Resize "960x webp q90") }}
+    {{ $data.Set "fallback" ($src.Resize "960x q90") }}
+  {{ else }}
+    {{ $data.Set "webp" ($src.Resize (printf "%dx%d webp q90" $src.Width $src.Height)) }}
+    {{ $data.Set "fallback" ($src.Resize (printf "%dx%d q90" $src.Width $src.Height)) }}
+  {{ end }}
 
-    <a href="{{ $src }}">
-      <img src="{{ $webp.RelPermalink }}" alt="{{ .Text }}" loading="lazy" decoding="async" width="{{ $src.Width }}" height="{{ $src.Height }}" />
-    </a>
-    {{ with .Title }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
+  {{ $webp := $data.Get "webp" }}
+  {{ $fallback := $data.Get "fallback" }}
+
+  <a href="{{ $src }}">
+    <picture>
+      <source srcset="{{ $webp.RelPermalink }}" type="image/webp">
+      <img src="{{ $fallback.RelPermalink }}" alt="{{ .Text }}" loading="lazy" decoding="async" width="{{ $src.Width }}" height="{{ $src.Height }}" />
+    </picture>
+  </a>
+  {{ with .Title }}<figcaption>{{ . | markdownify }}</figcaption>{{ end }}
 </figure>
 {{end}}

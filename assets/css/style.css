@@ -1,7 +1,4 @@
 /* Variables */
-:root {}
-
-/* Global variables. */
 :root {
     --font-sans: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: Menlo, Consolas, Monaco, Liberation Mono, Lucida Console, monospace;
@@ -127,8 +124,12 @@ svg {
 
 .icon-inline {
     display: inline-block;
-    vertical-align: text-top;
+    vertical-align: middle;
     padding-right: 5px;
+}
+
+.icon-rss {
+    padding-left: 5px;
 }
 
 figure {

@@ -1,0 +1,17 @@
+{{ $rss := readFile "assets/icons/rss.svg" }}
+{{- $filledPathRss := replace $rss "<path" "<path fill='currentColor'" -}}
+{{- $titledRss := replaceRE "<svg (.*?)>" (printf `<svg role="img" width="16" height="16" $1 ><title>RSS</title>`) $filledPathRss -}}
+
+{{ range .Site.Data.links }}
+  <h2>{{ .title }}</h2>
+  <p>{{ .description }}</p>
+  
+  <ul>
+  {{ range .links }}
+  <li>
+    <strong><a href="{{ .link }}">{{ .title }}</a></strong>
+    {{ if .rss }} <a href="{{ .rss }}"><span class="icon-inline icon-rss">{{ $titledRss | safeHTML }}</span></a>{{ end }}
+  </li>
+  {{ end }}
+  </ul>
+{{ end }}

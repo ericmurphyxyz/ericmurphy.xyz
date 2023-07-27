@@ -9,31 +9,7 @@ Here are some links to other websites that I find useful or interesting. Since s
 Linking a website here does not constitute an endorsement of everything they've ever posted.
 {{</note>}}
 
-## Interesting Websites by Individuals
-
-Websites not about any specific topic, but included because I like their writing. 
-
-- **[~bt](https://bt.ht/)**
-- **[bikobatanari](https://www.bikobatanari.art/)**
-- **[Cheapskate's Guide](https://cheapskatesguide.org/)**
-- **[CozyNet](https://www.cozynet.org/)**
-- **[Drew DeVault](https://drewdevault.com/)**
-- **[Jared White](https://jaredwhite.com/)**
-- **[Luke Smith](https://lukesmith.xyz/)**
-- **[Manuel Moreale](https://manuelmoreale.com)**
-
-## Web Development
-
-Websites and blogs about web development (without the bloat).
-
-- **[Go Make Things](https://gomakethings.com)**
-- **[The Spicy Web](https://www.spicyweb.dev/)**
-
-## YouTube Channels
-
-I purposefully don't watch much YouTube anymore, because I find it very hard to responsibly use the website without being affected by the algorithm. The few channels I still subscribe to, I do so via RSS.
-
-- **[Natural Hypertrophy](https://www.youtube.com/channel/UCG-3rEW4IrDNa7-9iGByc2A)**
+{{<links>}}
 
 ## Interesting Articles
 

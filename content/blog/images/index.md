@@ -1,7 +1,6 @@
 ---
 title: "Obsessing Over Optimizing Web Images"
-date: 2023-07-19T12:46:01+07:00
-draft: true
+date: 2023-07-27
 ---
 
 I have a confession to make. I'm obsessed with optimizing images. Images are the biggest oversight for a lot of websites. I'll see blogs that obsess about minimalism and using as little JavaScript as possible, only to have huge, uncompressed images served in outdated formats. It's very common to see images that are 300 KB that could be reduced to 100 KB or less with no quality loss.

@@ -11,5 +11,5 @@ This website is meant to be my **\"home base\"** on the internet. I'll post some
 - 📽 Watch my videos on [YouTube](https://youtube.com/@ericmurphyxyz) or [Odysee](https://odysee.com/@ericnmurphy).
 - 📜 Find my dotfiles and scripts on [GitHub](https://github.com/ericmurphyxyz).
 - 💻 Want to know what programs I use on a daily basis? See my [Uses](/uses) page.
-- ✉ Want to get in touch? Feel free to [drop me a message](/contact).
+- ✉ Want to get in touch? Feel free to [drop me a message](mailto:eric@ericmurphy.xyz).
 {{</ card >}}

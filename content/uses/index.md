@@ -40,9 +40,3 @@ If you're looking for something that's not listed on this page, feel free to [co
 
 - This site is built with **[Hugo](https://www.youtube.com/watch?v=KwkjqMs7ZYI)**, a static site generator that just outputs HTML and CSS instead of the bloated mess that is most of the modern web.
 - This site is hosted by **[Vultr](https://www.vultr.com/?ref=9005580-8H)**. I use a cheap Debian VPS to host all my projects. Having your own VPS gives you a lot more freedom in hosting your own website.
-
-## Hardware
-
-- I use the **[HP Spectre x360](https://amzn.to/3N19Tef)** laptop for all of my work.
-- I use the **[Roost Laptop Stand](https://amzn.to/3Ctfghm)** to prevent the "laptop hunch". It's also foldable and very portable so I can take it with me when I work outside.
-- I record all my videos with the **[Samson Technologies Q2U Microphone](https://amzn.to/3qEWb9B)**. It's nothing fancy, but the audio quality is good for the price.

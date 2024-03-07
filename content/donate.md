@@ -2,7 +2,7 @@
 title: Donate
 ---
 
-If any of my work has helped you at all, donations are greatly appreciated! If you'd like to send me a message along with your donation, please [send me an email](mailto:eric@ericmurphy.xyz).
+If any of my work has helped you at all, donations are greatly appreciated! If you'd like to send me a message along with your donation, please [send me an email](/contact).
 
 If you'd like to send me a one-time tip, you can do so [via PayPal](https://paypal.me/ericmurphyxyz).
 

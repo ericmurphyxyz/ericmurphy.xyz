@@ -28,7 +28,7 @@ title = "Eric Murphy"
 
   [[menu.main]]
     name = "Contact"
-    url = "mailto:eric@ericmurphy.xyz"
+    url = "/contact"
     weight = 50
 
   [[menu.main]]

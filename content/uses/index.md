@@ -9,7 +9,7 @@ My motivation for the software and operating system I use is to be as efficient 
 
 {{<note title="Disclosure">}}Some links here are affiliate links to services and products I use.{{</note>}}
 
-If you're looking for something that's not listed on this page, feel free to [contact me](mailto:eric@ericmurphy.xyz) and ask.
+If you're looking for something that's not listed on this page, feel free to [contact me](/contact) and ask.
 
 ![My Desktop](desktop.png "My cool desktop!! Which is actually just the most efficient way I've found to do my work.")
 
@@ -34,7 +34,7 @@ If you're looking for something that's not listed on this page, feel free to [co
 - For email, I use **[ProtonMail](https://pr.tn/ref/Y8M5X5MSTJ9G)**. Despite the haters, it's still the best privacy-respecting email service out there for most people (even though [email is inherently not private](https://www.youtube.com/watch?v=ljFAODAfAC8)). I pay for custom domain email, and it's the best email experience I've had to date. If you use the webmail, you get all the modern niceties of something like Gmail without the creepy tracking.
 - **[Bitwarden](https://bitwarden.com/)** is the best password manager. It does everything you could need a password manager to do, and the premium subscription if you want a few more features is dirt-cheap.
 - This site is hosted by **[Vultr](https://www.vultr.com/?ref=9005580-8H)**. I use a cheap Debian VPS to host all my projects. Having your own VPS gives you a lot more freedom in hosting your own website.
-- I use **[NameCheap](https://namecheap.com/)** to purchase my domains. Great prices and customer support make this one a no-brainer for me. I've been using them for years with no complaints. Whatever you do, do *not* use GoDaddy.
+- I use **[NameCheap](https://namecheap.pxf.io/21z0BQ)** to purchase my domains. Great prices and customer support make this one a no-brainer for me. I've been using them for years with no complaints. Whatever you do, do *not* use GoDaddy.
 
 ## Applications
 

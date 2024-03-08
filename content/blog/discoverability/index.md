@@ -33,7 +33,7 @@ I like the idea, but not so much the execution.
 
 One of the biggest issues that a lot of webrings have is that **they're just not niche enough**. When you have a webring of "anybody that has an independent website", you get a lot of websites, but not a lot of cohesion between any of them. On the [Hotline Webring](https://hotlinewebring.club/), on one website, you'll find Vim tips and tricks, and on the next, you'll find the ramblings of an autistic gay furry. Some webrings are more niche and don't just accept everyone, but they're not the majority. One of the biggest active webrings, the [Yesterweb Ring](https://forum.yesterweb.org/viewtopic.php?p=4611#p4611), which had *over 800 websites* was recently shut down because there's no way to have any sort of community with *over 800 websites*.
 
-Another issue is that the [quality of websites in a webring can vary *vastly*](https://www.bikobatanari.art/posts/2023/personal-link-directories-are-better). One website might be a carefully crafted, hand-coded website with years of content. The next is a blank page saying *"I'll update this someday lol."* Some websites have been abandoned for years. Some are just broken links. Many don't inlude the webring widget so there's no way to go to the next website.
+Another issue is that the [quality of websites in a webring can vary *vastly*](https://www.bikobatanari.art/posts/2023/personal-link-directories-are-better). One website might be a carefully crafted, hand-coded website with years of content. The next is a blank page saying *"I'll update this someday lol."* Some websites have been abandoned for years. Some are just broken links. Many don't include the webring widget so there's no way to go to the next website.
 
 There are a lot of issues with webrings, but there are some that manage to do it right. Still, there aren't a lot of great ones out there. If someone can find a *well-curated webring that makes sure all the websites are quality and actively maintained, in a specific enough niche*, let me know!
 
@@ -43,7 +43,7 @@ But due to all of these issues, I can't really recommend any webrings as a good 
 
 ![Wiby search engine](wiby.png "\"A search engine for the classic web.\"")
 
-Obviously, I'm not talking about search engines like Google here. Nor am I talking about DuckDuckGo, Brave, or any others, becaues they all have the same issue of being completely unable to surface any small, independent websites.
+Obviously, I'm not talking about search engines like Google here. Nor am I talking about DuckDuckGo, Brave, or any others, because they all have the same issue of being completely unable to surface any small, independent websites.
 
 What I *am* talking about is [Wiby](https://wiby.org). Wiby is a search engine for the "classic web" that only indexes small, minimal websites. Just like the old days of Google when you could find anything on there, right?
 

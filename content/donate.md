@@ -4,7 +4,7 @@ title: Donate
 
 If any of my work has helped you at all, donations are greatly appreciated! If you'd like to send me a message along with your donation, please [send me an email](/contact).
 
-If you'd like to send me a one-time tip, you can do so [via PayPal](https://paypal.me/ericmurphyxyz).
+You can support me monthly or with a one-time payment from [my Ko-fi page](https://ko-fi.com/ericmurphy). Thank you!
 
 ## Crypto
 

@@ -7,7 +7,7 @@ I often get questions on my videos about my desktop and the software I use. Most
 
 My motivation for the software and operating system I use is to be as efficient as possible, and essentially use my computer "at the speed of thought". Using more minimal software helps me to achieve that, but it may not be for everyone.
 
-{{<note title="Disclosure">}}Some links here are affiliate links to services and products I use.{{</note>}}
+{{<note title="Disclosure">}}Some links here are affiliate links to services and products I use. I never use affiliate links for products I don't personally use.{{</note>}}
 
 If you're looking for something that's not listed on this page, feel free to [contact me](/contact) and ask.
 
@@ -22,19 +22,19 @@ If you're looking for something that's not listed on this page, feel free to [co
 
 ## Software
 
-- For my operating system, I use **[Arch Linux](https://archlinux.org)** (btw). It's the only Linux distribution that gets out of my way and just lets me do my work. It's very minimal and easy-to-use *after* you get over the initial learning curve, but it's definitely worth the investment.
+- For my operating system, I use **[Arch Linux](https://archlinux.org)** (btw). It's the only Linux distribution that gets out of my way and just lets me do my work. It's very minimal and easy-to-use _after_ you get over the initial learning curve, but it's definitely worth the investment.
 - **[Hyprland](https://hyprland.org/)** is my window manager, or basically "how I make my desktop look cool". For my workflow, a tiling window manager is essential once you get over the learning curve. Hyprland uses Wayland and also has some nice animations. Previously, I've used [bspwm](https://github.com/baskerville/bspwm) in some older videos.
 - **[Waybar](https://github.com/Alexays/Waybar)** is the status bar at the top.
 - I currently use **[kitty](https://sw.kovidgoyal.net/kitty/)** for my terminal due to its support for images in Wayland. It's very customizable but still very fast. For my shell, I use **[zsh](https://www.youtube.com/watch?v=dRdGq8khTJc)** with [a few plugins](https://www.youtube.com/watch?v=wHnMd8uz6j0) for niceties like syntax highlighting and auto-complete.
 - For my web browser, I use **[Firefox](https://www.youtube.com/watch?v=w0SJFED5xK0)**. I've tried every other browser and Firefox, despite its flaws, remains the best. However, I use a custom user.js file (based on [Betterfox](https://github.com/yokoffing/BetterFox)) to disable trackers and remove annoying features. I also use a [custom theme](https://github.com/ericmurphyxyz/userchrome.css) to make it look a bit nicer. [Brave](https://www.youtube.com/watch?v=uB845Elrds0) is also very good and I still use it occasionally for websites that don't work in Firefox.
-    - For browser extensions, I use [uBlock Origin](https://ublockorigin.com/) to block ads and trackers, [Vimium](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/) for vim-like keybindings, and [Bitwarden](https://bitwarden.com/) for password management. Everything else is superfluous.
+  - For browser extensions, I use [uBlock Origin](https://ublockorigin.com/) to block ads and trackers, [Vimium](https://addons.mozilla.org/en-US/firefox/addon/vimium-ff/) for vim-like keybindings, and [Bitwarden](https://bitwarden.com/) for password management. Everything else is superfluous.
 
 ## Services
 
 - For email, I use **[ProtonMail](https://pr.tn/ref/Y8M5X5MSTJ9G)**. Despite the haters, it's still the best privacy-respecting email service out there for most people (even though [email is inherently not private](https://www.youtube.com/watch?v=ljFAODAfAC8)). I pay for custom domain email, and it's the best email experience I've had to date. If you use the webmail, you get all the modern niceties of something like Gmail without the creepy tracking.
 - **[Bitwarden](https://bitwarden.com/)** is the best password manager. It does everything you could need a password manager to do, and the premium subscription if you want a few more features is dirt-cheap.
 - This site is hosted by **[Vultr](https://www.vultr.com/?ref=9005580-8H)**. I use a cheap Debian VPS to host all my projects. Having your own VPS gives you a lot more freedom in hosting your own website.
-- I use **[NameCheap](https://namecheap.pxf.io/21z0BQ)** to purchase my domains. Great prices and customer support make this one a no-brainer for me. I've been using them for years with no complaints. Whatever you do, do *not* use GoDaddy.
+- I use **[NameCheap](https://namecheap.pxf.io/21z0BQ)** to purchase my domains. Great prices and customer support make this one a no-brainer for me. I've been using them for years with no complaints. Whatever you do, do _not_ use GoDaddy.
 
 ## Applications
 

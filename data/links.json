@@ -9,10 +9,6 @@
         "rss": "https://bt.ht/atom.xml"
       },
       {
-        "title": "bikobatanari",
-        "link": "https://www.bikobatanari.art/"
-      },
-      {
         "title": "Cheapskate's Guide",
         "link": "https://cheapskatesguide.org/"
       },
@@ -67,6 +63,11 @@
         "title": "Natural Hypertrophy",
         "link": "https://www.youtube.com/channel/UCG-3rEW4IrDNa7-9iGByc2A",
         "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCG-3rEW4IrDNa7-9iGByc2A"
+      },
+      {
+        "title": "Uncommon Sense",
+        "link": "https://www.youtube.com/@UncommonSense",
+        "rss": "https://www.youtube.com/feeds/videos.xml?channel_id=UCVPIB0Ay_YVlOQYBnwDRAdg"
       }
     ]
   }

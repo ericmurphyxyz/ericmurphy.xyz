@@ -15,7 +15,6 @@ Linking a website here does not constitute an endorsement of everything they've 
 
 Articles I've read recently (or not so recently).
 
-- **[I quit YouTube for more than a month](https://www.bikobatanari.art/posts/2022/i-quit-youtube)**
 - **[Say No to Self-Deprecating Humor](https://denshi.org/blog/say-no-to-self-deprecating-humor/)**
 - **[How the Blog Broke the Web](https://stackingthebricks.com/how-blogs-broke-the-web/)**
 - **[My Website is a Personal Museum](https://www.bikobatanari.art/posts/2020/personal-museum)**

@@ -9,8 +9,8 @@
   <ul>
   {{ range .links }}
   <li>
-    <strong><a href="{{ .link }}">{{ .title }}</a></strong>
-    {{ if .rss }} <a href="{{ .rss }}"><span class="icon-inline icon-rss">{{ $titledRss | safeHTML }}</span></a>{{ end }}
+    <strong><a href="{{ .link }}" target="_blank" rel="noopener">{{ .title }}</a></strong>
+    {{ if .rss }} <a href="{{ .rss }}" target="_blank" rel="noopener"><span class="icon-inline icon-rss">{{ $titledRss | safeHTML }}</span></a>{{ end }}
   </li>
   {{ end }}
   </ul>
